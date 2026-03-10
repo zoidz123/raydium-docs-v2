@@ -1,6 +1,5 @@
 # Summary
 
-* [API Reference](README.md)
 * [Trade API](trade-api/overview.md)
   * [Get swap quote](trade-api/compute-swap-base-in.md)
   * [Enter swap](trade-api/transaction-swap-base-in.md)

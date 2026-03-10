@@ -1,30 +1,21 @@
 ---
-description: "Build and interact with LaunchLab bonding curves using the Raydium SDK."
+description: "Build LaunchLab platform, launch, migration, and fee workflows with the Raydium SDK."
 ---
 
 # LaunchLab
 
-The Raydium SDK provides tools for building and interacting with LaunchLab bonding curves. Create platforms with custom fee structures, launch tokens, and integrate trading, all with a few lines of code.
+Use this section when you are integrating LaunchLab platform creation, token launches, migration monitoring, and fee workflows.
 
-> **Note:** No upfront capital needed. Creating a launchpad and deploying your first token costs less than `0.1 SOL` total.
+## In this section
 
-### Installation
+- [Creating a platform](/developers/launchlab/creating-a-platform): Register a branded launch platform and configure fees.
+- [Launching a token](/developers/launchlab/launching-a-token): Deploy a LaunchLab token and initialize its bonding curve flow.
+- [Buying and selling a token](/developers/launchlab/buying-and-selling-a-token): Execute trading flows against LaunchLab tokens.
+- [Monitoring token migration](/developers/launchlab/monitoring-token-migration): Track when liquidity graduates into Raydium pools.
+- [Collecting fees](/developers/launchlab/collecting-fees): Claim platform and creator fees after launch activity.
 
-```bash
-yarn add @raydium-io/raydium-sdk-v2
-```
+## Useful references
 
-### Resources
-
-| Resource | Link |
-| --- | --- |
-| SDK source | [raydium-sdk-V2/launchpad](https://github.com/raydium-io/raydium-sdk-V2/tree/master/src/raydium/launchpad) |
-| Demo implementation | [raydium-sdk-V2-demo/launchpad](https://github.com/raydium-io/raydium-sdk-V2-demo/tree/master/src/launchpad) |
-| CPI integration | [raydium-cpi/launch-cpi](https://github.com/raydium-io/raydium-cpi/tree/master/programs/launch-cpi) |
-
-### Program addresses
-
-| Network | Address |
-| --- | --- |
-| Mainnet | `LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj` |
-| Devnet | `DRay6fNdQ5J82H7xV6uq2aV3mNrUZ1J4PgSKsWgptcm6` |
+- [Raydium SDK launchpad source](https://github.com/raydium-io/raydium-sdk-V2/tree/master/src/raydium/launchpad)
+- [Raydium SDK demo launchpad flows](https://github.com/raydium-io/raydium-sdk-V2-demo/tree/master/src/launchpad)
+- [Raydium CPI launch example](https://github.com/raydium-io/raydium-cpi/tree/master/programs/launch-cpi)
