@@ -1,18 +1,10 @@
 ---
-description: "Reference Raydium's Trade API and API v3 endpoints from one space."
+description: Programmatic swap quoting and transaction building for Raydium routed swaps.
 ---
 
-# API Reference
+# Trade API
 
-Use this space for Raydium REST endpoint docs.
+## Endpoints
 
-## In this space
-
-- [Trade API](/api-reference/trade-api): Quote routed swaps and build serialized transactions.
-- [Endpoints](/api-reference/endpoints): Pools, mints, farms, IDO, and main API v3 resources.
-
-## Base URL
-
-```text
-https://api-v3.raydium.io
-```
+* [Get swap quote](overview/compute-swap-base-in.md): Get a routed swap quote for an exact input amount.
+* [Enter swap](overview/transaction-swap-base-in.md): Build one or more serialized swap transactions from a quote response.
