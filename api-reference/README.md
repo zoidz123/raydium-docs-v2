@@ -20,7 +20,3 @@ This space is the source of truth for Raydium API references in GitBook.
 ```bash
 https://api-v3.raydium.io
 ```
-
-## Related pages
-
-- [OpenAPI import notes](openapi-import.md)
