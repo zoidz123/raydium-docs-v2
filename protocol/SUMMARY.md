@@ -1,6 +1,5 @@
 # Summary
 
-* [Protocol](README.md)
 * [RAY token](ray-token/README.md)
   * [RAY buybacks](ray-token/ray-buybacks.md)
   * [RAY token white paper](ray-token/raydium-protocol-ray-token-white-paper.md)

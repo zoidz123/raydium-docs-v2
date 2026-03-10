@@ -1,6 +1,5 @@
 # Summary
 
-* [User Guides](README.md)
 * [Getting started](getting-started/onboarding.md)
   * [The Raydium app](getting-started/the-raydium-app.md)
   * [Trust and safety](getting-started/trust-and-safety.md)

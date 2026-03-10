@@ -1,6 +1,5 @@
 # Summary
 
-* [Developers](README.md)
 * [Trade API](trade-api.md)
 * [LaunchLab](launchlab/README.md)
   * [Creating a platform](launchlab/creating-a-platform.md)

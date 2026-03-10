@@ -1,6 +1,5 @@
 # Summary
 
-* [Overview](README.md)
 * [About Raydium](about-raydium.md)
 * [Core products](core-products/README.md)
   * [CLMM](core-products/clmm/what-is-clmm.md)
