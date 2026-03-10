@@ -1,0 +1,318 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Raydium Trade API",
+    "version": "1.0.0",
+    "description": "Trade API endpoints for routed swaps and transaction building on Raydium."
+  },
+  "tags": [
+    {
+      "name": "Trade API",
+      "description": "Quote and transaction-building endpoints for routed swaps."
+    }
+  ],
+  "paths": {
+    "/compute/swap-base-in": {
+      "get": {
+        "summary": "Get swap quote",
+        "description": "Get a routed swap quote for an exact input amount.",
+        "tags": [
+          "Trade API"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "inputMint",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Token mint address to swap from."
+          },
+          {
+            "in": "query",
+            "name": "outputMint",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Token mint address to swap to."
+          },
+          {
+            "in": "query",
+            "name": "amount",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Amount in base units, such as token decimals or lamports for SOL."
+          },
+          {
+            "in": "query",
+            "name": "slippageBps",
+            "required": true,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Slippage tolerance in basis points. For example, 50 = 0.5%."
+          },
+          {
+            "in": "query",
+            "name": "txVersion",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "v0",
+                "legacy"
+              ]
+            },
+            "description": "Transaction version."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful quote response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "swapType": {
+                          "type": "string"
+                        },
+                        "inputMint": {
+                          "type": "string"
+                        },
+                        "inputAmount": {
+                          "type": "string"
+                        },
+                        "outputMint": {
+                          "type": "string"
+                        },
+                        "outputAmount": {
+                          "type": "string"
+                        },
+                        "otherAmountThreshold": {
+                          "type": "string"
+                        },
+                        "slippageBps": {
+                          "type": "number"
+                        },
+                        "priceImpactPct": {
+                          "type": "number"
+                        },
+                        "referrerAmount": {
+                          "type": "string"
+                        },
+                        "routePlan": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "poolId": {
+                                "type": "string"
+                              },
+                              "inputMint": {
+                                "type": "string"
+                              },
+                              "outputMint": {
+                                "type": "string"
+                              },
+                              "feeMint": {
+                                "type": "string"
+                              },
+                              "feeRate": {
+                                "type": "number"
+                              },
+                              "feeAmount": {
+                                "type": "string"
+                              },
+                              "remainingAccounts": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "lastPoolPriceX64": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "example": {
+                  "id": "cbbcc7e2-a5fa-4040-a260-b229842c93c7",
+                  "success": true,
+                  "version": "V1",
+                  "data": {
+                    "swapType": "BaseIn",
+                    "inputMint": "So11111111111111111111111111111111111111112",
+                    "inputAmount": "100000000",
+                    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                    "outputAmount": "13738391",
+                    "otherAmountThreshold": "13669699",
+                    "slippageBps": 50,
+                    "priceImpactPct": 0,
+                    "referrerAmount": "0",
+                    "routePlan": [
+                      {
+                        "poolId": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
+                        "inputMint": "So11111111111111111111111111111111111111112",
+                        "outputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+                        "feeMint": "So11111111111111111111111111111111111111112",
+                        "feeRate": 1,
+                        "feeAmount": "10000",
+                        "remainingAccounts": [
+                          "DDe2TojkajtXKYJEMKfjY3Xjdw1XhZqr8UEBNgrg512P",
+                          "AWeEpV2ASCkVmcpK7htwWCqztmKMNdsmquKMa7y96Wif",
+                          "22ps6VsrEnCwEfGX4nkFV2xz4ohpvF5aTVtSg5FcwGRn"
+                        ],
+                        "lastPoolPriceX64": "6841151606851928973"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/transaction/swap-base-in": {
+      "post": {
+        "summary": "Enter swap",
+        "description": "Build one or more serialized swap transactions from a quote response.",
+        "tags": [
+          "Trade API"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "swapResponse",
+                  "wallet",
+                  "txVersion"
+                ],
+                "properties": {
+                  "swapResponse": {
+                    "type": "object",
+                    "description": "Response returned by the quote endpoint."
+                  },
+                  "wallet": {
+                    "type": "string",
+                    "description": "User wallet public key."
+                  },
+                  "txVersion": {
+                    "type": "string",
+                    "enum": [
+                      "V0",
+                      "LEGACY"
+                    ],
+                    "description": "Transaction version."
+                  },
+                  "wrapSol": {
+                    "type": "boolean",
+                    "description": "Wrap SOL to wSOL for the input leg."
+                  },
+                  "unwrapSol": {
+                    "type": "boolean",
+                    "description": "Unwrap wSOL to SOL for the output leg."
+                  },
+                  "inputAccount": {
+                    "type": "string",
+                    "description": "Input token account. Omit if the input is SOL."
+                  },
+                  "outputAccount": {
+                    "type": "string",
+                    "description": "Output token account. Omit if the output is SOL."
+                  },
+                  "computeUnitPriceMicroLamports": {
+                    "type": "string",
+                    "description": "Priority fee in micro-lamports."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful transaction build response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "transaction": {
+                            "type": "string",
+                            "description": "Base64-encoded serialized transaction."
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "example": {
+                  "id": "bca0c725-0037-48ce-8d0a-db39a0f6e020-tx",
+                  "version": "V1",
+                  "success": true,
+                  "data": [
+                    {
+                      "transaction": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQADEUxrOZd2...[truncated]"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://transaction-v1.raydium.io"
+    }
+  ],
+  "x-tagGroups": [
+    {
+      "name": "Trade API",
+      "tags": [
+        "Trade API"
+      ]
+    }
+  ]
+}
