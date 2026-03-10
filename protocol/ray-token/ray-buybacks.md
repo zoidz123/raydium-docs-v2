@@ -1,6 +1,8 @@
-# RAY buybacks
+---
+description: "Learn how Raydium uses trading fees to programmatically buy back RAY."
+---
 
-Learn how Raydium uses trading fees to programmatically buy back RAY.
+# RAY buybacks
 
 12% of all trading fees across Raydium are used to programmatically buy back RAY.
 

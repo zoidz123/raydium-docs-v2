@@ -1,6 +1,8 @@
-# CPMM bug bounty details
+---
+description: "Program-specific scope, assets, and testnet references for Raydium's constant product market maker."
+---
 
-Program-specific scope, assets, and testnet references for Raydium's constant product market maker.
+# CPMM bug bounty details
 
 This page covers program-specific scope, assets, and testnet references for Raydium’s constant product market maker (CPMM), also referred to as CP-Swap.
 

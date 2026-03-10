@@ -1,6 +1,8 @@
-# What is LaunchLab
+---
+description: "LaunchLab is Raydium's token launch product built around bonding curves and pool migration."
+---
 
-LaunchLab is Raydium's token launch product built around bonding curves and pool migration.
+# LaunchLab
 
 LaunchLab is Raydium's community-powered token launch platform for traders looking for new tokens and creators who want a simple but powerful way to run customizable launches. It combines bonding-curve price discovery with Raydium's AMM infrastructure, so tokens can launch on a curve and then migrate into open Raydium liquidity.
 

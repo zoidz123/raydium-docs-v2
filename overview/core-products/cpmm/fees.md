@@ -1,6 +1,8 @@
-# CPMM fees
+---
+description: "CPMM fees include pool creation rent costs and a fixed protocol fee."
+---
 
-CPMM fees include pool creation rent costs and a fixed protocol fee.
+# CPMM fees
 
 This section provides an overview of Solana rent costs associated with creating a CPMM pool and the Raydium protocol fee.
 
@@ -10,7 +12,7 @@ Creates a new liquidity pool for a token pair. Unlike CLMM, CPMM pools require i
 
 **Total cost: ~0.19 SOL** (non-refundable)
 
-**Rent costs: 0.04215672 SOL**
+### Rent costs: 0.04215672 SOL
 
 | Account           | Cost (SOL)     | Refundable |
 | ----------------- | -------------- | ---------- |
@@ -22,7 +24,7 @@ Creates a new liquidity pool for a token pair. Unlike CLMM, CPMM pools require i
 | LP token account  | 0.00203928     | Yes        |
 | **Total**         | **0.04215672** | -          |
 
-**Protocol fee: 0.15 SOL**
+### Protocol fee: 0.15 SOL
 
 A fixed fee paid to Raydium to support protocol infrastructure and prevent pool spam.
 
@@ -30,7 +32,6 @@ Protocol fees are collected at: `DNXgeM9EiiaAbaWvwjHj9fQQLAX5ZsfHyvmYUNRAdNC8`
 
 Pools cannot be closed once created.
 
----
 
 ## LP token account
 

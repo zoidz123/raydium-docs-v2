@@ -1,6 +1,8 @@
-# What is CPMM
+---
+description: "Learn how CPMM works on Raydium, how it differs from AMM v4, and when it is the right pool model."
+---
 
-Learn how CPMM works on Raydium, how it differs from AMM v4, and when it is the right pool model.
+# What is CPMM
 
 ## Overview
 
@@ -10,7 +12,6 @@ When you provide liquidity, you receive **fungible LP tokens** that represent yo
 
 CPMM pools prioritize simplicity and predictability, making them well suited for long-tail assets, retail liquidity providers, and integrations that prefer minimal configuration.
 
----
 
 ## Best for
 
@@ -20,7 +21,6 @@ CPMM is best for:
 * Volatile assets
 * LPs who prefer passive, full-range exposure
 
----
 
 ## Key characteristics
 
@@ -29,7 +29,6 @@ CPMM is best for:
 * Simple user experience compared to concentrated liquidity
 * Compatible with both SPL Token and Token-2022 standards
 
----
 
 ## CPMM vs AMM v4
 
@@ -42,50 +41,47 @@ Raydium has two constant product programs:
 
 If you are choosing between the two for a new deployment, `CPMM` is generally the modern default. `AMM v4` matters mainly for legacy compatibility and existing ecosystem coverage.
 
----
 
 ## Creating a CPMM pool
 
 Creating a CPMM pool initializes a new trading pair and deposits the first liquidity.
 
-**What happens on pool creation**
+### What happens on pool creation
 
 * Tokens are automatically ordered by their mint address
 * Initial liquidity is deposited for both tokens
 * A small amount of LP tokens is permanently locked to prevent zero-liquidity attacks
 
-**Important notes**
+### Important notes
 
 * The ratio of the initial deposit defines the **starting price**
 * Pool creation fees and trading fee tiers are defined by a shared configuration
 * Swaps only become active once the configured open time is reached
 * Pool creation and account costs are covered in [CPMM fees](/overview/core-products/cpmm/fees)
 
----
 
 ## Adding liquidity
 
 Adding liquidity means depositing tokens into an existing pool in proportion to its current reserves.
 
-**How deposits work**
+### How deposits work
 
 * You provide one token amount
 * The protocol calculates how much of the other token is required
 * LP tokens are minted based on your share of the pool
 * Slippage protection ensures you do not overpay
 
-**What you receive**
+### What you receive
 
 * Fungible LP tokens representing your ownership share
 * Automatic exposure to trading fees earned by the pool
 
----
 
 ## Removing liquidity
 
 Removing liquidity burns your LP tokens and returns the underlying assets.
 
-**How withdrawals work**
+### How withdrawals work
 
 * LP tokens are burned permanently
 * You receive both tokens in proportion to your ownership
@@ -94,7 +90,6 @@ Removing liquidity burns your LP tokens and returns the underlying assets.
 
 Fees are embedded directly into the value of LP tokens.
 
----
 
 ## When to use CPMM pools
 

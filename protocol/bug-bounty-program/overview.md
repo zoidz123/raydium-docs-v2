@@ -1,6 +1,8 @@
-# Overview
+---
+description: "Rewards, scope, and disclosure rules for Raydium's bug bounty program."
+---
 
-Rewards, scope, and disclosure rules for Raydium's bug bounty program.
+# Bug bounty program
 
 Find and report bugs to Raydium to earn rewards.
 

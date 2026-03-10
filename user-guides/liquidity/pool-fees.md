@@ -4,7 +4,6 @@
 
 All costs are Solana rent-exemption fees. There is no Raydium protocol fee for CLMM pool creation or position management.
 
----
 
 ### Pool creation
 
@@ -23,7 +22,6 @@ Creates a liquidity pool for a token pair. The pool exists on-chain and is ready
 
 Pools cannot be closed once created. These costs are permanent.
 
----
 
 ### Opening a position
 
@@ -31,7 +29,7 @@ Creates a new LP position for a specific price range. You receive an NFT represe
 
 Position costs have two components: a fixed base cost and a variable tick array cost.
 
-#### **Base cost**
+#### Base cost
 
 Raydium supports two NFT methods for position ownership:
 
@@ -40,7 +38,7 @@ Raydium supports two NFT methods for position ownership:
 | Token-2022 NFT | \~0.0092  | Uses native Token-2022 metadata |
 | SPL + Metaplex | \~0.0215  | Legacy method, higher cost      |
 
-**Token-2022 breakdown:**
+### Token-2022 breakdown
 
 | Account           | Cost (SOL)   | Refundable |
 | ----------------- | ------------ | ---------- |
@@ -50,7 +48,7 @@ Raydium supports two NFT methods for position ownership:
 | Metadata funding  | 0.0014616    | Yes        |
 | **Total**         | **\~0.0092** | —          |
 
-**SPL + Metaplex breakdown:**
+### SPL + Metaplex breakdown
 
 | Account           | Cost (SOL)   | Refundable |
 | ----------------- | ------------ | ---------- |
@@ -60,7 +58,7 @@ Raydium supports two NFT methods for position ownership:
 | Metaplex Metadata | 0.0151156    | No         |
 | **Total**         | **\~0.0215** | —          |
 
-### **Tick array cost**
+### Tick array cost
 
 Tick arrays store price tick data for a range of prices. Each array costs **0.07216128 SOL** and covers `60 × tick_spacing` ticks.
 
@@ -72,7 +70,7 @@ Tick arrays are:
 
 **You only pay for tick arrays if they don't already exist.** For popular pools like SOL-USDC, tick arrays across common price ranges are already initialized—you pay nothing extra. This cost primarily applies to new pools or positions in rarely-used price ranges.
 
-**Calculating tick arrays needed:**
+### Calculating tick arrays needed
 
 ```
 arrays_needed = ceil(range_width / (60 × tick_spacing))
@@ -87,7 +85,7 @@ The minimum is 1-2 tick arrays per position (for the lower and upper bounds of y
 | 60           | 3,600           | Volatile pairs           |
 | 120          | 7,200           | High volatility          |
 
-**Example costs (assuming tick arrays don't exist):**
+### Example costs (assuming tick arrays don't exist)
 
 | Tick spacing | Arrays needed | Cost       |
 | ------------ | ------------- | ---------- |
@@ -95,7 +93,7 @@ The minimum is 1-2 tick arrays per position (for the lower and upper bounds of y
 | 60           | 2             | 0.1443 SOL |
 | 10           | 10            | 0.7216 SOL |
 
-**Full range position costs:**
+### Full range position costs
 
 > **Info:** **Note:** The full range position costs provided here are for illustration purposes only. It is generally not recommended to opt for a full range position due to its high cost. If your goal is full range liquidity, it is better to use a constant product pool.
 
@@ -111,7 +109,6 @@ Deposits tokens into an existing position. Your position must already be open, a
 
 **Cost:** Network transaction fee only
 
----
 
 #### Decrease liquidity
 
@@ -119,7 +116,6 @@ Withdraws tokens from your position without closing it. The position remains ope
 
 **Cost:** Network transaction fee only
 
----
 
 ### Close position
 
@@ -131,7 +127,6 @@ Burns the position NFT and closes the position account. You must withdraw all li
 
 Tick arrays are not refunded—they remain as shared infrastructure for other LPs.
 
----
 
 ## CPMM fees
 
@@ -143,7 +138,7 @@ Creates a new liquidity pool for a token pair. Unlike CLMM, CPMM pools require i
 
 **Total cost: \~0.19 SOL** (non-refundable)
 
-**Rent costs: 0.04215672 SOL**
+### Rent costs: 0.04215672 SOL
 
 | Account           | Cost (SOL)     | Refundable |
 | ----------------- | -------------- | ---------- |
@@ -155,7 +150,7 @@ Creates a new liquidity pool for a token pair. Unlike CLMM, CPMM pools require i
 | LP Token Account  | 0.00203928     | Yes        |
 | **Total**         | **0.04215672** | —          |
 
-**Protocol fee: 0.15 SOL**
+### Protocol fee: 0.15 SOL
 
 A fixed fee paid to Raydium to support protocol infrastructure and prevent pool spam.
 
@@ -163,9 +158,8 @@ Protocol fees are collected at: `DNXgeM9EiiaAbaWvwjHj9fQQLAX5ZsfHyvmYUNRAdNC8`
 
 Pools cannot be closed once created.
 
----
 
-### **LP token account (Deposit/Withdrawal)**
+### LP token account (Deposit/Withdrawal)
 
 Each liquidity provider needs an LP token account to hold their LP tokens.
 

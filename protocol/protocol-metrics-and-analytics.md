@@ -1,6 +1,8 @@
-# Protocol metrics and analytics
+---
+description: "Dashboards and reports tracking Raydium on-chain activity."
+---
 
-Dashboards and reports tracking Raydium on-chain activity.
+# Protocol metrics and analytics
 
 Use these dashboards and reports to track Raydium's onchain activity, trading volumes, and broader protocol performance.
 

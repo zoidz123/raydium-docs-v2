@@ -1,6 +1,8 @@
-# Creating a platform
+---
+description: "Create and configure your LaunchLab platform to enable token launches."
+---
 
-Create and configure your LaunchLab platform to enable token launches.
+# Creating a platform
 
 Create and configure your LaunchLab platform to enable token launches.
 
@@ -69,7 +71,7 @@ const createPlatform = async () => {
 
 ## Configuration parameters
 
-### **Wallet configuration**
+### Wallet configuration
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -78,7 +80,7 @@ const createPlatform = async () => {
 | `platformLockNftWallet` | PublicKey | Wallet that receives the platform's Fee Key NFT after migration. |
 | `platformVestingWallet` | PublicKey | Wallet for platform vesting allocations. Use `PublicKey.default` if not needed. |
 
-### **Fee configuration**
+### Fee configuration
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -87,7 +89,7 @@ const createPlatform = async () => {
 
 Fees are denominated in quote token (for example, SOL). For each trade, total fee = `protocolFeeRate` + `platformFeeRate` + `creatorFeeRate` + `shareFeeRate`. Each party receives their proportional share.
 
-### **LP distribution at migration**
+### LP distribution at migration
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -97,7 +99,7 @@ Fees are denominated in quote token (for example, SOL). For each trade, total fe
 
 These three values must sum to `1,000,000` (100%).
 
-**Example distributions:**
+### Example distributions
 
 ```typescript
 // 80% burned, 10% creator, 10% platform
@@ -110,19 +112,19 @@ These three values must sum to `1,000,000` (100%).
 { burnScale: 1000000, creatorScale: 0, platformScale: 0 }
 ```
 
-### **Pool configuration**
+### Pool configuration
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | `cpConfigId` | PublicKey | Fee tier for the CPMM pool after migration. Get available configs from the API. |
 | `transferFeeExtensionAuth` | PublicKey | Receives transfer fee authorities for Token-2022 launches after migration. |
 
-**Available CPMM configs:**
+### Available CPMM configs
 
 - Mainnet: [api-v3.raydium.io/main/cpmm-config](https://api-v3.raydium.io/main/cpmm-config)
 - Devnet: [api-v3-devnet.raydium.io/main/cpmm-config](https://api-v3-devnet.raydium.io/main/cpmm-config)
 
-**Metadata**
+### Metadata
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -153,7 +155,7 @@ const updatePlatform = async () => {
 }
 ```
 
-### **Available update types**
+### Available update types
 
 | Type | Value | Description |
 | --- | --- | --- |
@@ -200,7 +202,7 @@ const instruction = updatePlatformCurveParamInstruction(
 )
 ```
 
-**How parameter enforcement works**
+### How parameter enforcement works
 
 - Store up to 25 configurations (index 0-254)
 - Set a parameter to `null` to skip validation for that field

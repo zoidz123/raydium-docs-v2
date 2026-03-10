@@ -1,6 +1,8 @@
-# How to stake into farms
+---
+description: "Stake LP tokens or hold in-range CLMM positions to earn farm rewards on top of trading fees."
+---
 
-Stake LP tokens or hold in-range CLMM positions to earn farm rewards on top of trading fees.
+# How to stake into farms
 
 This guide explains how rewards work for both constant product farms and CLMM farms.
 

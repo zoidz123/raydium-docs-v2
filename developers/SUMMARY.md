@@ -1,7 +1,7 @@
 # Summary
 
 * [Trade API](trade-api.md)
-* [LaunchLab](launchlab/README.md)
+* [LaunchLab](launchlab/overview.md)
   * [Creating a platform](launchlab/creating-a-platform.md)
   * [Launching a token](launchlab/launching-a-token.md)
   * [Buying and selling a token](launchlab/buying-and-selling-a-token.md)

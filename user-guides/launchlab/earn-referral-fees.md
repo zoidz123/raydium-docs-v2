@@ -1,6 +1,8 @@
-# How to earn fees
+---
+description: "Share LaunchLab referral links and earn fees when users trade through your link."
+---
 
-Share LaunchLab referral links and earn fees when users trade through your link.
+# How to earn fees
 
 ## Share a referral link
 

@@ -1,6 +1,8 @@
-# About Raydium
+---
+description: "Learn what Raydium is, what you can do on the platform, and how its core products fit together."
+---
 
-Learn what Raydium is, what you can do on the platform, and how its core products fit together.
+# About Raydium
 
 ## What is Raydium?
 
@@ -24,7 +26,7 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 ## Who it is for
 
-- [Traders](/overview/trading/raydium-swap): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
+- [Traders](/overview/trading): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
 - [Liquidity providers](/user-guides/liquidity/pool-types): Provide liquidity across CLMM, CPMM, and AMM v4 pool designs.
 - [Token creators](/overview/core-products/launchlab): Launch tokens, bootstrap liquidity, and move into open market trading with LaunchLab.
 
@@ -35,9 +37,9 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 ## Pool types
 
-- [CLMM](/overview/core-products/clmm/what-is-clmm): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
-- [CPMM](/overview/core-products/cpmm/what-is-cpmm): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
-- [AMM v4](/overview/core-products/amm-v4/what-is-amm-v4): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
+- [CLMM](/overview/core-products/clmm): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
+- [CPMM](/overview/core-products/cpmm): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
+- [AMM v4](/overview/core-products/amm-v4): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
 
 ## LaunchLab
 

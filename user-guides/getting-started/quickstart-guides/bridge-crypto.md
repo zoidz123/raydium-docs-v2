@@ -1,6 +1,8 @@
-# How to bridge crypto
+---
+description: "Move crypto from Ethereum or other chains into Solana."
+---
 
-Move crypto from Ethereum or other chains into Solana.
+# How to bridge crypto
 
 Already have crypto on another chain? Bridge it into Solana in a few clicks.
 

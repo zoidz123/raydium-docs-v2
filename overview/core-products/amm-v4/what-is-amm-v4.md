@@ -1,6 +1,8 @@
-# What is AMM v4
+---
+description: "Learn what AMM v4 is, how it differs from CPMM, and when the legacy Raydium AMM still matters."
+---
 
-Learn what AMM v4 is, how it differs from CPMM, and when the legacy Raydium AMM still matters.
+# What is AMM v4
 
 AMMv4 is Raydium's original constant-product automated market maker and the **most widely deployed Raydium contract on Solana**. Often referred to as the **hybrid AMM**, it historically shared idle liquidity with a central limit order book, first Serum and later OpenBook, to improve capital efficiency.
 

@@ -8,7 +8,6 @@ When you provide liquidity, you receive **fungible LP tokens** that represent yo
 
 CPMM pools prioritize simplicity and predictability, making them well suited for long-tail assets, retail liquidity providers, and integrations that prefer minimal configuration.
 
----
 
 ## Key characteristics
 
@@ -17,50 +16,47 @@ CPMM pools prioritize simplicity and predictability, making them well suited for
 * Simple user experience compared to concentrated liquidity
 * Compatible with both SPL Token and Token-2022 standards
 
----
 
 #### Creating a CPMM pool
 
 Creating a CPMM pool initializes a new trading pair and deposits the first liquidity.
 
-**What happens on pool creation**
+### What happens on pool creation
 
 * Tokens are automatically ordered by their mint address
 * Initial liquidity is deposited for both tokens
 * A small amount of LP tokens is permanently locked to prevent zero-liquidity attacks
 * A one-time [pool creation fee](/user-guides/liquidity/pool-fees) is paid in SOL
 
-**Important notes**
+### Important notes
 
 * The ratio of the initial deposit defines the **starting price**
 * Pool creation fees and trading fee tiers are defined by a shared configuration
 * Swaps only become active once the configured open time is reached
 
----
 
 ## Adding liquidity
 
 Adding liquidity means depositing tokens into an existing pool in proportion to its current reserves.
 
-**How deposits work**
+### How deposits work
 
 * You provide one token amount
 * The protocol calculates how much of the other token is required
 * LP tokens are minted based on your share of the pool
 * Slippage protection ensures you do not overpay
 
-**What you receive**
+### What you receive
 
 * Fungible LP tokens representing your ownership share
 * Automatic exposure to trading fees earned by the pool
 
----
 
 ## Removing liquidity
 
 Removing liquidity burns your LP tokens and returns the underlying assets.
 
-**How withdrawals work**
+### How withdrawals work
 
 * LP tokens are burned permanently
 * You receive both tokens in proportion to your ownership
@@ -69,7 +65,6 @@ Removing liquidity burns your LP tokens and returns the underlying assets.
 
 Fees are embedded directly into the value of LP tokens.
 
----
 
 ## When to use CPMM pools
 

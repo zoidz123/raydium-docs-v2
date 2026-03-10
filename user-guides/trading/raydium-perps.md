@@ -1,6 +1,8 @@
-# How to trade perps on Raydium
+---
+description: "Open a Raydium Perps account, deposit collateral, and start trading perpetual futures."
+---
 
-Open a Raydium Perps account, deposit collateral, and start trading perpetual futures.
+# How to trade perps on Raydium
 
 Raydium Perps gives you a self-custodial perpetual futures interface powered by [Orderly Network’s infrastructure](https://orderly.network/). You can fund an account, deposit collateral from supported chains, and trade perpetual markets from a familiar order-book interface.
 

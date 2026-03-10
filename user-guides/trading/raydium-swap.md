@@ -1,6 +1,8 @@
-# How to swap on Raydium
+---
+description: "Understand how swaps work on Raydium, including pool types, fees, slippage, and common issues."
+---
 
-Understand how swaps work on Raydium, including pool types, fees, slippage, and common issues.
+# How to swap on Raydium
 
 Raydium swaps execute against onchain liquidity pools. This guide explains how the flow works and what to watch before you confirm a trade.
 

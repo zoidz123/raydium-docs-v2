@@ -17,20 +17,20 @@ Anyone can create a token. When the bonding curve reaches the set amount of SOL 
 
 ### Who is LaunchLab for?
 
-**🧑‍💻 Traders**
+### 🧑‍💻 Traders
 
 * Access early-stage tokens directly from a bonding curve
 * Transparent, on-chain launches with no gatekeepers
 * Earn your share of community pool fees
 
-**🎨 Creators**
+### 🎨 Creators
 
 * Launch a token in minutes with no coding
 * Choose between JustSendit or LaunchLab modes.
 * Bootstrap liquidity through a bonding curve and launch aRaydium AMM pool when target is met
 * Creators can earn a share of trading fees once liquidity migrate to the AMM
 
-**🌐 Third-Party Platforms**
+### 🌐 Third-Party Platforms
 
 * Launch tokens under your own brand and platform
 * Access the full distribution and discoverability of Raydium and the LaunchLab program

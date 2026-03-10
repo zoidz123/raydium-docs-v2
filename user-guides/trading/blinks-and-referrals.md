@@ -1,8 +1,10 @@
+---
+description: "Share swap links on X, Discord, or anywhere else. When someone swaps using your link, you earn a 1% referral fee. Links shared on X.com automatically render as Blinks if users have it enabled."
+---
+
 # Blinks and referrals
 
-Share swap links on X, Discord, or anywhere else. When someone swaps using your link, you earn a 1% referral fee. Links shared on X.com automatically render as Blinks if users have it enabled.
-
-**How to create a referral link:**
+### How to create a referral link
 
 1. Go to the [swap page](https://Raydium.io/swap) and connect your wallet
 2. Select the token you want others to swap to
@@ -14,7 +16,7 @@ Share swap links on X, Discord, or anywhere else. When someone swaps using your 
 
 > No wallet connected? You can still create links, but you won't earn referral fees.
 
-**FAQ**
+### FAQ
 
 **How do I enable Blinks in my wallet?** Check your wallet settings for "Actions" or "Blinks" and enable it. This allows swap previews to render directly on X.com.
 

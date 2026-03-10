@@ -1,10 +1,12 @@
-# Overview
+---
+description: "Overview of the core tokenomics of RAY, including supply, emissions, fee-based buybacks, and allocation transparency."
+---
 
-Overview of the core tokenomics of RAY, including supply, emissions, fee-based buybacks, and allocation transparency.
+# RAY token
 
 This page covers the core tokenomics of RAY, including supply, emissions, fee-based buybacks, and allocation transparency.
 
-## Overview
+## At a glance
 
 - RAY has a fixed maximum supply (hard cap) of 555 million tokens.
 - The mining reserve accounts for 34% of the total supply, or 188.7 million RAY.

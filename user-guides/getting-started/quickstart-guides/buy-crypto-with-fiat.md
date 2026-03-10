@@ -1,6 +1,8 @@
-# How to buy crypto with fiat
+---
+description: "Buy or sell crypto on Raydium with a card or bank transfer through MoonPay."
+---
 
-Buy or sell crypto on Raydium with a card or bank transfer through MoonPay.
+# How to buy crypto with fiat
 
 Raydium supports fiat on-ramp and off-ramp flows through [MoonPay](https://www.moonpay.com/).
 

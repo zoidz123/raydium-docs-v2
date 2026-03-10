@@ -1,6 +1,8 @@
-# How to buy a LaunchLab token
+---
+description: "Buy a token on the LaunchLab bonding curve and understand what happens when it graduates."
+---
 
-Buy a token on the LaunchLab bonding curve and understand what happens when it graduates.
+# How to buy a LaunchLab token
 
 Use this flow to buy a token while it is still trading on the LaunchLab bonding curve.
 

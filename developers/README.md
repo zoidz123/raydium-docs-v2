@@ -1,6 +1,8 @@
-# Developers
+---
+description: "Build on top of Raydium's liquidity infrastructure, launch tooling, and program interfaces."
+---
 
-Build on top of Raydium's liquidity infrastructure, launch tooling, and program interfaces.
+# Developers
 
 ## In this space
 

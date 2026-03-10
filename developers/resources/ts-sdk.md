@@ -1,6 +1,8 @@
-# TS SDK
+---
+description: "Use Raydium's TypeScript SDK for swaps, pool creation, liquidity management, and LaunchLab integration."
+---
 
-Use Raydium's TypeScript SDK for swaps, pool creation, liquidity management, and LaunchLab integration.
+# TS SDK
 
 The Raydium SDK provides functions for swaps, pool creation, liquidity management, and LaunchLab integration.
 

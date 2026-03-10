@@ -1,6 +1,8 @@
-# Trading basics
+---
+description: "Learn what perpetual futures are, how leverage works, and what risks to understand before trading."
+---
 
-Learn what perpetual futures are, how leverage works, and what risks to understand before trading.
+# Trading basics
 
 ## What are perpetual futures (perps)?
 
@@ -8,7 +10,7 @@ Learn what perpetual futures are, how leverage works, and what risks to understa
 
 ### Why trade perps instead of spot?
 
-#### **1) Trade up or down**
+#### 1) Trade up or down
 
 With spot, you generally profit only if the price goes up. With perps, you can:
 
@@ -17,7 +19,7 @@ With spot, you generally profit only if the price goes up. With perps, you can:
 
 Example: If you believe BTC will drop, you can open a **short** on BTC-PERP and potentially benefit if the price declines.
 
-#### **2) Use leverage to get more exposure with less upfront capital**
+#### 2) Use leverage to get more exposure with less upfront capital
 
 Leverage lets you control a larger position with a smaller amount of collateral.
 
@@ -25,23 +27,23 @@ Example: If BTC is 90,000 USDC, buying 1 BTC on spot costs 90,000 USDC. With **1
 
 ### Raydium Perpetual Futures
 
-#### **Multi-asset collateral, USDC-settled P&L**
+#### Multi-asset collateral, USDC-settled P&L
 
 Raydium Perps supports depositing **USDC, native SOL, and USDT** as collateral.
 
 **Profit and loss (P\&L) is still calculated and settled in USDC**, meaning your P\&L is denominated in USDC even if your collateral is in SOL or USDT.
 
-#### **Cross-margin only**
+#### Cross-margin only
 
 Raydium Perps uses **cross-margin**, so your collateral is shared across all open positions and contributes to a single account-wide margin ratio.
 
 If you want separate margin “accounts,” you’ll need to use a **different wallet**.
 
-#### **Leverage options**
+#### Leverage options
 
 Raydium Perps supports leverage **up to 100×**, depending on the market.
 
-**One-way mode (one position per market)**
+### One-way mode (one position per market)
 
 Raydium Perp uses **one-way mode**:
 
@@ -52,14 +54,14 @@ Raydium Perp uses **one-way mode**:
 
 Leverage can magnify both gains and losses. Before trading perps, make sure you’re comfortable with these risks:
 
-#### **Losses can exceed your initial margin on a position**
+#### Losses can exceed your initial margin on a position
 
 A small move against you can lead to a large loss relative to your collateral—especially at higher leverage.
 
-#### **Liquidation risk**
+#### Liquidation risk
 
 If your margin ratio falls below required levels, your position may be **liquidated** to help prevent further losses. Liquidations can happen quickly in fast markets, even with small price moves at high leverage.
 
-#### **Volatility and slippage**
+#### Volatility and slippage
 
 Crypto markets can move rapidly. In volatile conditions, orders may fill at worse prices than expected (**slippage**), which can increase losses and raise liquidation risk.

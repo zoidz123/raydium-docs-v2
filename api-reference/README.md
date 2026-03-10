@@ -1,6 +1,8 @@
-# API Reference
+---
+description: "Interactive API reference for Raydium APIs."
+---
 
-Interactive API reference for Raydium APIs.
+# API Reference
 
 Use the imported OpenAPI groups in this space for endpoint details and schemas.
 

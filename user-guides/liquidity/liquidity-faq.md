@@ -1,6 +1,8 @@
-# Liquidity FAQ
+---
+description: "Common questions about liquidity, LP tokens, CLMM positions, farms, and common liquidity errors."
+---
 
-Common questions about liquidity, LP tokens, CLMM positions, farms, and common liquidity errors.
+# Liquidity FAQ
 
 ## General
 

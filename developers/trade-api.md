@@ -1,6 +1,8 @@
-# How to use Trade API
+---
+description: "Route swaps through Raydium pools using quotes, serialized transactions, and optional priority fee helpers."
+---
 
-Route swaps through Raydium pools using quotes, serialized transactions, and optional priority fee helpers.
+# How to use Trade API
 
 The Trade API lets you get quotes and execute swaps through Raydium's routing engine. For a complete end-to-end implementation, see the [SDK demo](https://github.com/raydium-io/raydium-sdk-V2-demo).
 

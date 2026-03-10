@@ -1,6 +1,8 @@
-# IDLs
+---
+description: "Reference Raydium IDL files and understand which programs expose public Anchor-compatible interfaces."
+---
 
-Reference Raydium IDL files and understand which programs expose public Anchor-compatible interfaces.
+# IDLs
 
 Raydium provides **IDL (Interface Definition Language)** files for most of its modern programs. These IDLs define program instructions, accounts, and data structures and can be used with tools such as **Anchor** or custom SDKs.
 

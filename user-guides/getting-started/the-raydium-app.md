@@ -1,8 +1,10 @@
+---
+description: "Everything on Raydium is accessible directly at [Raydium.io](https://Raydium.io/) - no downloads, no installs."
+---
+
 # The Raydium app
 
-Everything on Raydium is accessible directly at [Raydium.io](https://Raydium.io/) - no downloads, no installs.
-
-**What you can do:**
+### What you can do
 
 * [**Swap**](/user-guides/trading/raydium-swap) - Trade any token pair instantly
 * [**Perps**](/user-guides/trading/raydium-perps) - Trade perpetual futures with leverage

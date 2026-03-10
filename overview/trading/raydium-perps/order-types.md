@@ -1,6 +1,8 @@
-# Order types
+---
+description: "Understand the order types and execution flags available on Raydium Perps."
+---
 
-Understand the order types and execution flags available on Raydium Perps.
+# Order types
 
 ## Order types
 

@@ -1,6 +1,8 @@
-# How creator fees work
+---
+description: "When enabled, creators will receive **10% of all LP fees** generated from the liquidity pool after their token graduates from the bonding curve."
+---
 
-When enabled, creators will receive **10% of all LP fees** generated from the liquidity pool after their token graduates from the bonding curve.
+# How creator fees work
 
 * The Fee Key is only minted **after the token has graduated** and liquidity has been successfully migrated to the AMM pool.
 * **Do NOT burn or transfer the Fee Key NFT** unless you're intentionally passing on the rights — if lost or burned, the ability to claim fees is permanently forfeited.

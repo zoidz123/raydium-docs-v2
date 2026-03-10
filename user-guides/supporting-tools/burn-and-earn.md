@@ -1,6 +1,8 @@
-# How to use Burn and Earn
+---
+description: "Lock supported LP positions permanently while keeping the right to claim trading fees through a Raydium Fee Key NFT."
+---
 
-Lock supported LP positions permanently while keeping the right to claim trading fees through a Raydium Fee Key NFT.
+# How to use Burn and Earn
 
 Burn & Earn lets you lock supported LP positions while keeping the right to claim trading fees through a Raydium Fee Key NFT.
 

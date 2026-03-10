@@ -1,6 +1,8 @@
-# Multi-collateral deposit
+---
+description: "See which collateral assets are supported on Raydium Perps and how deposit limits work."
+---
 
-See which collateral assets are supported on Raydium Perps and how deposit limits work.
+# Multi-collateral deposit
 
 Raydium Perps supports multiple collateral assets for margin, while profit and loss remains settled in USDC.
 

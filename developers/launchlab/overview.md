@@ -1,6 +1,8 @@
-# Overview
+---
+description: "Build and interact with LaunchLab bonding curves using the Raydium SDK."
+---
 
-Build and interact with LaunchLab bonding curves using the Raydium SDK.
+# LaunchLab
 
 The Raydium SDK provides tools for building and interacting with LaunchLab bonding curves. Create platforms with custom fee structures, launch tokens, and integrate trading, all with a few lines of code.
 

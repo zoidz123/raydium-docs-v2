@@ -1,6 +1,8 @@
-# Farms FAQ
+---
+description: "Common questions about farm rewards, start times, APR display, emission changes, and pool selection."
+---
 
-Common questions about farm rewards, start times, APR display, emission changes, and pool selection.
+# Farms FAQ
 
 ## Ecosystem farms
 

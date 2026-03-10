@@ -12,7 +12,6 @@ Raydium displays three APR estimation methods:
 2. **Delta method** — based on your position's share of liquidity
 3. **Multiplier method** — based on historical price range overlap
 
----
 
 ### Overall pool estimated APR
 
@@ -22,13 +21,12 @@ $$
 APR = \sum(d\_{365}, h\_{24}, s\_{3600}, b\_{0.5}) \times \frac{(perBlockReward \times rewardPrice) + totalTradingFee}{totalLiquidityValue}
 $$
 
----
 
 ### Delta method
 
 Calculates estimated APR based on your position's implied change (delta) in pool liquidity, determined by your price range and size.
 
-**Condition**
+### Condition
 
 $$
 i\_l \leq i\_c < i\_u
@@ -42,7 +40,7 @@ Where:
 | $$i\_c$$ | currentTickId |
 | $$i\_u$$ | upperTickId   |
 
-**Token amounts in a position**
+### Token amounts in a position
 
 $$
 \Delta Y = \Delta L \times (\sqrt{P} - \sqrt{P\_l})
@@ -52,7 +50,7 @@ $$
 \Delta X = \Delta L \times \left(\frac{1}{\sqrt{P}} - \frac{1}{\sqrt{P\_u}}\right)
 $$
 
-**Calculating ΔL**
+### Calculating ΔL
 
 For estimation of tokenA ($$\Delta X$$) and tokenB ($$\Delta Y$$) we need to know $$\Delta L$$:
 
@@ -82,7 +80,7 @@ $$
 \Delta X = \Delta L \times \left(\frac{1}{\sqrt{P}} - \frac{1}{\sqrt{P\_u}}\right)
 $$
 
-**Estimated daily fee**
+### Estimated daily fee
 
 $$
 Fee = feeTier \times volume24H \times \frac{\Delta L}{L + \Delta L}
@@ -96,7 +94,7 @@ Where:
 | $$L$$         | Total liquidity (cumulative of liquidityNet from all ticks that $$i \leq i\_c$$) |
 | $$\Delta L$$  | Delta liquidity                                                                  |
 
-**Liquidity amounts**
+### Liquidity amounts
 
 And can be calculated from:
 
@@ -114,18 +112,17 @@ $$
 | If $$i\_c > i\_u$$                          | $$\Delta L = liquidityAmount1$$                         |
 | If $$i\_c \geq i\_l$$ && $$i\_c \leq i\_u$$ | $$\Delta L = \min(liquidityAmount0, liquidityAmount1)$$ |
 
----
 
 ### Multiplier method
 
 Calculates estimated APR based on how much your price range overlaps with historical trading activity.
 
-**Assumptions**
+### Assumptions
 
 * Historical price data is used to extrapolate future price data (not the best indicator of future performance, but provides a decent estimate)
 * Price fluctuation within the historical range is assumed to be consistent across the time interval, resembling a periodic function with amplitude equal to the upper and lower price boundaries
 
-**Variables**
+### Variables
 
 | Variable       | Description                                                         |
 | -------------- | ------------------------------------------------------------------- |
@@ -134,7 +131,7 @@ Calculates estimated APR based on how much your price range overlaps with histor
 | $$h\_{lower}$$ | Lower bound of historical price range across a specific time period |
 | $$h\_{upper}$$ | Upper bound of historical price range across a specific time period |
 
-**Retroactive range intersection**
+### Retroactive range intersection
 
 $$
 r\_{lower} = \max(u\_{lower}, h\_{lower})
@@ -144,7 +141,7 @@ $$
 r\_{upper} = \min(u\_{upper}, h\_{upper})
 $$
 
-**Range definitions**
+### Range definitions
 
 $$
 userRange = u\_{upper} - u\_{lower}
@@ -160,7 +157,7 @@ $$
 
 Where $$retroRange$$ is the retroactive intersection between $$userRange$$ and $$histRange$$.
 
-**Multiplier calculation**
+### Multiplier calculation
 
 Let $$m$$ = multiplier of rewards or fees that user will receive.
 
@@ -171,7 +168,6 @@ Let $$m$$ = multiplier of rewards or fees that user will receive.
 | $$histRange = retroRange$$ | $$m = \frac{retroRange}{userRange}$$                                      |
 | Otherwise                  | $$m = \frac{retroRange}{tradeRange} \times \frac{retroRange}{userRange}$$ |
 
----
 
 ### Important notes
 

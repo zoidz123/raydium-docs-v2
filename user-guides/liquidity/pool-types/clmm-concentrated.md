@@ -6,7 +6,6 @@ Concentrated liquidity allows liquidity providers (LPs) to allocate capital with
 
 Impermanent loss can be significant in CLMM pools. A positive return is not guaranteed. Make sure you understand the risks before providing concentrated liquidity.
 
----
 
 ## Creating pools
 
@@ -14,11 +13,10 @@ Only **one pool can exist per token pair per fee tier**.
 
 Creating a pool sets initial price. Opening a position opens your **first liquidity position**.
 
-**Costs**
+### Costs
 
 [Pool creation costs](/user-guides/liquidity/pool-fees) approximately **0.06 SOL**, plus **position costs** that vary based on the selected price range.
 
----
 
 ## Fee tiers and tick spacing
 
@@ -29,14 +27,13 @@ Each fee tier has a corresponding **tick spacing**:
 * Lower fee tiers use smaller tick spacing for more granular price points
 * Higher fee tiers use larger tick spacing with coarser price points
 
-## **Fee split**
+## Fee split
 
 Liquidity providers earn **84%** of trading fees. The remaining **16%** is allocated to:
 
 * **12%** to RAY buybacks
 * **4%** to treasury
 
----
 
 ## Positions
 
@@ -45,15 +42,14 @@ Each CLMM position is represented by an **NFT minted to your wallet**. This NFT 
 * the liquidity in the position
 * any uncollected fees and rewards
 
-**Position NFT behavior**
+### Position NFT behavior
 
 If a position NFT is **lost, sold, or burned**, the liquidity it represents is also lost.
 
-**Multiple positions**
+### Multiple positions
 
 There is no limit on the number of positions per wallet. You can open multiple positions in the same pool with overlapping or different ranges. Each position is independent.
 
----
 
 ## Out-of-range positions
 
@@ -64,13 +60,12 @@ When the pool price moves outside your position’s configured range:
 * the position remains open (there is no auto-close mechanism)
 * earnings resume automatically if the price returns to your range
 
----
 
 ## Fees
 
 Trading fees accrue to your position, but they are **not auto-compounded**. They accumulate inside the position until you trigger a collection event.
 
-#### **Collecting fees**
+#### Collecting fees
 
 Fees are accounted for whenever you modify liquidity, but they are only **transferred to your wallet** when you:
 
@@ -81,23 +76,21 @@ There is no separate “claim fees” instruction. Fee collection is handled thr
 
 Increasing liquidity updates fee accounting but does **not** transfer fees to you.
 
----
 
 ## Rewards
 
 [Farming rewards](/user-guides/supporting-tools/ecosystem-farms) (if enabled) behave similarly to fees.
 
-**Earning requirements**
+### Earning requirements
 
 * your position must be **in-range** to earn rewards
 * rewards are proportional to your liquidity within the active range
 * out-of-range positions earn nothing until the price returns in-range
 
-**Collecting rewards**
+### Collecting rewards
 
 Rewards are collected automatically when you modify your position’s liquidity (including a `decrease_liquidity` of 0).
 
----
 
 ## Key concepts
 
@@ -105,7 +98,6 @@ Rewards are collected automatically when you modify your position’s liquidity 
 * **Quote token convention**: the quote token represents how many quote tokens are needed to purchase 1 base token. Common quote tokens include SOL and USDC.
 * **Starting price**: set during pool creation and defines the initial exchange rate (quote per base).
 
----
 
 ## Summary
 

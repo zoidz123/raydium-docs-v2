@@ -1,6 +1,8 @@
-# Raydium Swap
+---
+description: "Raydium Swap is Raydium's token swapping interface for front-end users on Solana."
+---
 
-Raydium Swap is Raydium's token swapping interface for front-end users on Solana.
+# Raydium Swap
 
 Raydium Swap is Raydium's spot trading interface for front-end users. It lets you swap tokens directly against Raydium liquidity pools with onchain execution and routing across available liquidity.
 

@@ -1,6 +1,8 @@
-# Security
+---
+description: "Audits, bug bounty details, access controls, and program addresses for Raydium."
+---
 
-Audits, bug bounty details, access controls, and program addresses for Raydium.
+# Security
 
 Raydium's AMM and staking programs have been reviewed by engineers and security teams from across Solana.
 

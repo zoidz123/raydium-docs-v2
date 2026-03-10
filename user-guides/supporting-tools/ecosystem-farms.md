@@ -1,6 +1,8 @@
-# Ecosystem farms
+---
+description: "Incentivize liquidity by depositing token rewards into pools for LP farmers to earn."
+---
 
-Incentivize liquidity by depositing token rewards into pools for LP farmers to earn.
+# Ecosystem farms
 
 - [Creating an Ecosystem Farm](/user-guides/supporting-tools/ecosystem-farms/creating-an-ecosystem-farm)
 

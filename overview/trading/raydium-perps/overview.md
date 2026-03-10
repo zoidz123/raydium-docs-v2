@@ -1,6 +1,8 @@
-# Raydium Perps
+---
+description: "Raydium Perps is Raydium's perpetual futures trading interface built on Orderly."
+---
 
-Raydium Perps is Raydium's perpetual futures trading interface built on Orderly.
+# Raydium Perps
 
 Raydium Perps is Raydium's perpetual futures trading interface for front-end users. It is built on Orderly infrastructure and gives users access to leveraged perpetual markets from a self-custodial workflow.
 

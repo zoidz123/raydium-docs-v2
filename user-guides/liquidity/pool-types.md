@@ -4,7 +4,6 @@
 
 Raydium offers two liquidity pool types, each suited for different use cases. All pools are powered by [audited](/protocol/protocol-security), [open-source](https://github.com/Raydium-io) smart contracts and can be created via the UI, [SDK](https://github.com/Raydium-io/Raydium-sdk-V2-demo/tree/master/src), or [CPI](https://github.com/Raydium-io/Raydium-cpi-example).
 
----
 
 ## Concentrated liquidity (CLMM)
 
@@ -12,7 +11,7 @@ LPs choose a specific price range to provide liquidity. More capital efficient s
 
 **Best for:** Stable pairs, pegged assets, or advanced LPs who want precise control over their position.
 
-**Features:**
+### Features
 
 * Custom price ranges (asymmetric liquidity)
 * Fee tiers from 1bps to 400bps
@@ -22,7 +21,7 @@ LPs choose a specific price range to provide liquidity. More capital efficient s
 
 **Note:** Full-range positions are possible but cost more due to tick array initialization fees.
 
-**How price ranges work**
+### How price ranges work
 
 LPs earn fees in proportion to their share of liquidity at the current price. If the price moves outside your selected range, your position stops earning fees and may experience significant impermanent loss.
 
@@ -33,7 +32,6 @@ When price moves:
 
 This is similar to standard AMM behavior but accelerated within your chosen range. Active monitoring is critical—CLMMs offer higher capital efficiency but magnify impermanent loss compared to full-range positions.
 
----
 
 ## Constant product
 
@@ -51,7 +49,7 @@ When you provide liquidity to a pool, you're essentially becoming a market maker
 
 This is called **impermanent loss**.
 
-#### **How it works**
+#### How it works
 
 Imagine you deposit $1,000 worth of SOL and $1,000 worth of USDC into a pool (total: $2,000).
 
@@ -64,33 +62,32 @@ If SOL's price doubles:
 
 That $170 difference is impermanent loss.
 
-#### **Why "impermanent"?**
+#### Why "impermanent"?
 
 The loss only becomes real when you withdraw. If SOL's price returns to your entry price before you withdraw, the loss disappears. That's why it's called impermanent—it's unrealized until you exit.
 
-#### **The tradeoff**
+#### The tradeoff
 
 You're betting that trading fees earned will outweigh any impermanent loss. High-volume pools with lots of trading activity can generate enough fees to make up for it. Low-volume pools or large price swings may not.
 
 **For CLMM positions:** Impermanent loss is magnified within your selected price range. Tighter ranges mean higher fee earnings but also higher risk if price moves outside your range.
 
----
 
 ## Which should I use?
 
-#### **Use constant product if:**
+#### Use constant product if
 
 * Your token is launching (price discovery hasn't happened)
 * You expect high volatility
 * You want full-range, passive exposure
 
-#### **Use concentrated liquidity if:**
+#### Use concentrated liquidity if
 
 * Your token already trades elsewhere and you want tighter depth
 * You want to deposit asymmetric amounts of base/quote
 * You want integration with automated liquidity managers
 
-#### **Either works if:**
+#### Either works if
 
 * You're using Burn & Earn
 * Your token has Token-2022 extensions

@@ -1,6 +1,8 @@
-# Media asset
+---
+description: "Raydium logos and brand assets approved for partnership, media, and creative use."
+---
 
-Raydium logos and brand assets approved for partnership, media, and creative use.
+# Media asset
 
 Raydium logos and brand assets approved for partnership, media, and creative use can be found below.
 

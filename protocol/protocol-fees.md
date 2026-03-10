@@ -1,6 +1,8 @@
-# Protocol fees
+---
+description: "Fees collected by the Raydium protocol."
+---
 
-Fees collected by the Raydium protocol.
+# Protocol fees
 
 Raydium collects trading fees across its AMM products and pool creation fees for select pool types.
 

@@ -1,6 +1,8 @@
-# How to set up a wallet
+---
+description: "Choose a Solana wallet, secure it, and keep enough SOL for Raydium transactions."
+---
 
-Choose a Solana wallet, secure it, and keep enough SOL for Raydium transactions.
+# How to set up a wallet
 
 A wallet stores your funds and lets you interact with Raydium. Keep at least `0.05 SOL` in your wallet to avoid failed transactions.
 

@@ -1,6 +1,8 @@
-# Treasury
+---
+description: "Addresses holding Raydium protocol funds."
+---
 
-Addresses holding Raydium protocol funds.
+# Treasury
 
 This page lists Raydium protocol fund addresses, excluding RAY accounts.
 

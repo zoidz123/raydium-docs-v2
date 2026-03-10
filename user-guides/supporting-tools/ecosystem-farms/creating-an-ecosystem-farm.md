@@ -1,6 +1,8 @@
-# How to create an ecosystem farm
+---
+description: "Create a permissionless farm on Raydium and configure rewards, emissions, and duration."
+---
 
-Create a permissionless farm on Raydium and configure rewards, emissions, and duration.
+# How to create an ecosystem farm
 
 > **Info:** Read this entire guide before creating a farm.
 

@@ -1,6 +1,8 @@
-# Collecting fees
+---
+description: "Claim platform and creator fees before and after migration."
+---
 
-Claim platform and creator fees before and after migration.
+# Collecting fees
 
 LaunchLab generates fees at two stages: during bonding curve trading and after migration to liquidity pools. Platforms and creators can claim their earned fees at any time.
 
@@ -21,9 +23,9 @@ LaunchLab generates fees at two stages: during bonding curve trading and after m
 
 Fees accumulate during bonding curve trading. Both platforms and creators can claim their share at any time.
 
-#### **Platform fee collection**
+#### Platform fee collection
 
-**Claiming from platform vault**
+### Claiming from platform vault
 
 Platforms earn a share of every trade on bonding curves they host. Fees accumulate in a vault and can be claimed anytime.
 
@@ -48,7 +50,7 @@ const claimPlatformFees = async () => {
 }
 ```
 
-**Claiming from multiple quote tokens**
+### Claiming from multiple quote tokens
 
 If your platform hosts launches with different quote tokens:
 
@@ -71,7 +73,7 @@ const claimMultipleVaultFees = async () => {
 }
 ```
 
-**Claiming from all pools (former method)**
+### Claiming from all pools (former method)
 
 Claim fees from all bonding curve pools on your platform at once:
 
@@ -92,9 +94,9 @@ const claimAllFees = async () => {
 
 ***
 
-#### **Creator fee collection**
+#### Creator fee collection
 
-**Claiming bonding curve fees**
+### Claiming bonding curve fees
 
 Creators earn fees from trades on their token's bonding curve. Fees accumulate in a creator-specific vault.
 
@@ -116,7 +118,7 @@ const claimCreatorFees = async () => {
 }
 ```
 
-**Claiming from multiple quote tokens**
+### Claiming from multiple quote tokens
 
 If you've launched tokens with different quote tokens:
 
@@ -143,7 +145,7 @@ const claimMultipleCreatorFees = async () => {
 
 After migration to CPMM, both platforms and creators can claim their share of LP trading fees using the Fee Key NFT they received.
 
-**Claiming LP fees**
+### Claiming LP fees
 
 ```typescript
 import {
@@ -176,7 +178,7 @@ const claimLpFees = async () => {
 }
 ```
 
-**Understanding Fee Key NFTs**
+### Understanding Fee Key NFTs
 
 | Property | Details |
 | --- | --- |
@@ -212,13 +214,13 @@ const claimCpmmCreatorFees = async () => {
 
 #### Fee accumulation timeline
 
-**Bonding curve phase**
+### Bonding curve phase
 
 - **Platform fees** — claim with `claimVaultPlatformFee()`
 - **Creator fees** — claim with `claimCreatorFee()`
 - **Denomination** — quote token (for example, SOL)
 
-**Post-migration phase**
+### Post-migration phase
 
 - **Platform fees** — claim with `harvestLockLp()`
 - **Creator fees** — claim with `harvestLockLp()` and optionally `collectCreatorFee()` (CPMM)

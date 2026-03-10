@@ -1,6 +1,8 @@
-# Buying and selling a token
+---
+description: "Integrate LaunchLab bonding-curve trading."
+---
 
-Integrate LaunchLab bonding-curve trading.
+# Buying and selling a token
 
 Once a token is launched, users can buy and sell on the bonding curve until the fundraising goal is reached. This section covers how to integrate trading functionality.
 
@@ -41,7 +43,7 @@ const buyTokens = async () => {
 }
 ```
 
-### **Buy parameters**
+### Buy parameters
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -54,7 +56,7 @@ const buyTokens = async () => {
 | `slippage` | BN | No | Maximum slippage in bps (`100 = 1%`). Default: `100`. |
 | `minMintAAmount` | BN | No | Minimum tokens to receive. SDK calculates if omitted. |
 
-### **Buying exact token amount**
+### Buying exact token amount
 
 Use `buyTokenExactOut()` to specify exactly how many tokens you want to receive.
 
@@ -103,7 +105,7 @@ const sellTokens = async () => {
 }
 ```
 
-### **Sell parameters**
+### Sell parameters
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -113,7 +115,7 @@ const sellTokens = async () => {
 | `slippage` | BN | No | Maximum slippage in bps (`100 = 1%`). Default: `100`. |
 | `minAmountB` | BN | No | Minimum quote tokens to receive. SDK calculates if omitted. |
 
-### **Selling for exact quote amount**
+### Selling for exact quote amount
 
 Use `sellTokenExactOut()` to specify exactly how many quote tokens you want to receive.
 
@@ -183,7 +185,7 @@ const sellQuote = Curve.sellExactIn({
 console.log('Quote tokens out:', sellQuote.amountB.toString())
 ```
 
-### **Available quote methods**
+### Available quote methods
 
 | Method | Description |
 | --- | --- |

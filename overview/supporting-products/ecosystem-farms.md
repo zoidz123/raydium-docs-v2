@@ -1,6 +1,8 @@
-# Ecosystem Farms
+---
+description: "Ecosystem Farms let projects add token incentives to eligible Raydium liquidity pools."
+---
 
-Ecosystem Farms let projects add token incentives to eligible Raydium liquidity pools.
+# Ecosystem Farms
 
 Ecosystem farms are incentive programs that let projects add token rewards to eligible Raydium pools. They are used to attract liquidity and encourage participation around a pool or token.
 

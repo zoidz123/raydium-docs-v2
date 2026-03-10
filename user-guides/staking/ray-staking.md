@@ -1,6 +1,8 @@
-# RAY staking
+---
+description: "Stake RAY to earn additional RAY rewards."
+---
 
-Stake RAY to earn additional RAY rewards.
+# RAY staking
 
 Stake RAY to earn additional RAY rewards.
 

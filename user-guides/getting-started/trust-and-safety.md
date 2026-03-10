@@ -1,6 +1,8 @@
-# Trust and safety
+---
+description: "Raydium is permissionless, so you should verify sites, transactions, and token addresses before you interact."
+---
 
-Raydium is permissionless, so you should verify sites, transactions, and token addresses before you interact.
+# Trust and safety
 
 Raydium is fully permissionless. That gives you flexibility, but it also means you need to verify what you are interacting with before you connect a wallet or sign a transaction.
 

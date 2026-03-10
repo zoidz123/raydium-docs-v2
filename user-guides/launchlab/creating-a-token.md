@@ -1,6 +1,8 @@
-# How to create a token
+---
+description: "Create and launch a token on LaunchLab in minutes."
+---
 
-Create and launch a token on LaunchLab in minutes.
+# How to create a token
 
 Creating a token on LaunchLab is straightforward. There are two modes:
 

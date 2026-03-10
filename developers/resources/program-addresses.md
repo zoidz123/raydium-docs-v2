@@ -1,6 +1,8 @@
-# Program addresses
+---
+description: "Reference official Raydium program addresses for mainnet and devnet."
+---
 
-Reference official Raydium program addresses for mainnet and devnet.
+# Program addresses
 
 ## Mainnet
 

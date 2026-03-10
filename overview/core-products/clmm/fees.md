@@ -1,10 +1,11 @@
-# CLMM fees
+---
+description: "CLMM fees and costs include pool creation, position costs, and tick array initialization."
+---
 
-CLMM fees and costs include pool creation, position costs, and tick array initialization.
+# CLMM fees
 
 All costs are Solana rent-exemption fees. There is no Raydium protocol fee for CLMM pool creation or position management.
 
----
 
 ## Pool creation
 
@@ -23,7 +24,6 @@ Creates a liquidity pool for a token pair. The pool exists on-chain and is ready
 
 Pools cannot be closed once created. These costs are permanent.
 
----
 
 ## Opening a position
 
@@ -40,7 +40,7 @@ Raydium supports two NFT methods for position ownership:
 | Token-2022 NFT | ~0.0092    | Uses native Token-2022 metadata |
 | SPL + Metaplex | ~0.0215    | Legacy method, higher cost      |
 
-**Token-2022 breakdown:**
+### Token-2022 breakdown
 
 | Account           | Cost (SOL) | Refundable |
 | ----------------- | ---------- | ---------- |
@@ -50,7 +50,7 @@ Raydium supports two NFT methods for position ownership:
 | Metadata funding  | 0.0014616  | Yes        |
 | **Total**         | **~0.0092** | -         |
 
-**SPL + Metaplex breakdown:**
+### SPL + Metaplex breakdown
 
 | Account           | Cost (SOL) | Refundable |
 | ----------------- | ---------- | ---------- |
@@ -72,7 +72,7 @@ Tick arrays are:
 
 **You only pay for tick arrays if they do not already exist.** For popular pools like SOL-USDC, tick arrays across common price ranges are already initialized, so you pay nothing extra. This cost primarily applies to new pools or positions in rarely used price ranges.
 
-**Calculating tick arrays needed:**
+### Calculating tick arrays needed
 
 ```text
 arrays_needed = ceil(range_width / (60 × tick_spacing))
@@ -87,7 +87,7 @@ The minimum is 1-2 tick arrays per position, for the lower and upper bounds of y
 | 60           | 3,600           | Volatile pairs           |
 | 120          | 7,200           | High volatility          |
 
-**Example costs (assuming tick arrays do not exist):**
+### Example costs (assuming tick arrays do not exist)
 
 | Tick spacing | Arrays needed | Cost       |
 | ------------ | ------------- | ---------- |
@@ -95,7 +95,7 @@ The minimum is 1-2 tick arrays per position, for the lower and upper bounds of y
 | 60           | 2             | 0.1443 SOL |
 | 10           | 10            | 0.7216 SOL |
 
-**Full range position costs:**
+### Full range position costs
 
 > Note: The full range position costs provided here are for illustration purposes only. It is generally not recommended to opt for a full range position due to its high cost. If your goal is full range liquidity, it is better to use a constant product pool.
 
@@ -111,7 +111,6 @@ Deposits tokens into an existing position. Your position must already be open, a
 
 **Cost:** Network transaction fee only
 
----
 
 #### Decrease liquidity
 
@@ -119,7 +118,6 @@ Withdraws tokens from your position without closing it. The position remains ope
 
 **Cost:** Network transaction fee only
 
----
 
 ## Close position
 

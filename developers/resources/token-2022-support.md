@@ -1,6 +1,8 @@
-# Token-2022 support
+---
+description: "Understand Token-2022 support on Raydium CLMM and CPMM pools."
+---
 
-Understand Token-2022 support on Raydium CLMM and CPMM pools.
+# Token-2022 support
 
 [Token-2022](https://spl.solana.com/token-2022) is Solana's extended token standard, [enabling features like transfer fees, metadata, and programmable restrictions](https://spl.solana.com/token-2022/extensions). Raydium's CLMM and CPMM pools support Token-2022 assets.
 

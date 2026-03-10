@@ -1,6 +1,8 @@
-# Monitoring token migration
+---
+description: "Track automatic migration from bonding curve to Raydium AMM."
+---
 
-Track automatic migration from bonding curve to Raydium AMM.
+# Monitoring token migration
 
 Migration happens automatically when the bonding curve fundraising goal is reached. No SDK method needs to be called. The on-chain program handles the transition.
 
@@ -29,11 +31,11 @@ When `totalFundRaisingB` worth of quote tokens have been raised:
 
 ### What happens to fees
 
-**Pre-migration (bonding curve)**
+### Pre-migration (bonding curve)
 
 Fees accumulate in protocol, platform, and creator vaults. These can be claimed anytime using respective claim methods.
 
-**Post-migration (AMM pool)**
+### Post-migration (AMM pool)
 
 Locked LP tokens earn trading fees from the AMM pool. Fee Key NFT holders claim their share using `harvestLockLiquidity()`. Fees are proportional to the LP share (`creatorScale` / `platformScale`).
 

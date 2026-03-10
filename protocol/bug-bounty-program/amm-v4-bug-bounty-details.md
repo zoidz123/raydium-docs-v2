@@ -1,6 +1,8 @@
-# AMM v4 bug bounty details
+---
+description: "Program-specific scope and assets for Raydium's hybrid AMM."
+---
 
-Program-specific scope and assets for Raydium's hybrid AMM.
+# AMM v4 bug bounty details
 
 This page covers program-specific scope and assets for Raydium’s hybrid AMM (AMM v4).
 

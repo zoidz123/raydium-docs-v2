@@ -1,6 +1,8 @@
-# Launching a token
+---
+description: "Deploy a new token backed by a LaunchLab bonding curve."
+---
 
-Deploy a new token backed by a LaunchLab bonding curve.
+# Launching a token
 
 Token creators use `createLaunchpad()` to deploy a new token backed by a bonding curve. This single transaction:
 
@@ -110,7 +112,7 @@ const createToken = async () => {
 
 ### Parameter reference
 
-**Token configuration**
+### Token configuration
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -122,7 +124,7 @@ const createToken = async () => {
 
 ***
 
-### **Platform and global config**
+### Platform and global config
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -132,7 +134,7 @@ const createToken = async () => {
 
 ***
 
-### **Bonding curve parameters**
+### Bonding curve parameters
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -141,7 +143,7 @@ const createToken = async () => {
 | `totalFundRaisingB` | `BN` | No | Quote token amount to raise before migration. |
 | `migrateType` | `string` | Yes | Migration destination: `cpmm` or `amm`. |
 
-**Understanding supply distribution**
+### Understanding supply distribution
 
 ```txt
 supply = totalSellA + totalLockedAmount + migrateAmount
@@ -151,7 +153,7 @@ supply = totalSellA + totalLockedAmount + migrateAmount
 - `totalLockedAmount`: tokens reserved for vesting
 - `migrateAmount`: tokens migrated to the AMM pool (must be ≥ 20% of supply)
 
-**Vesting parameters (optional)**
+### Vesting parameters (optional)
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -163,7 +165,7 @@ supply = totalSellA + totalLockedAmount + migrateAmount
 
 ***
 
-### **Initial buy parameters (optional)**
+### Initial buy parameters (optional)
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -174,13 +176,13 @@ supply = totalSellA + totalLockedAmount + migrateAmount
 
 ***
 
-**Post-migration settings**
+### Post-migration settings
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
 | `creatorFeeOn` | `CpmmCreatorFeeOn` | No | Which token(s) creator fees are collected in after migration. |
 
-**`CpmmCreatorFeeOn` options**
+### `CpmmCreatorFeeOn` options
 
 | Value | Description |
 | --- | --- |
@@ -189,7 +191,7 @@ supply = totalSellA + totalLockedAmount + migrateAmount
 
 ***
 
-**Referral parameters (optional)**
+### Referral parameters (optional)
 
 | Parameter | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -217,7 +219,7 @@ const { execute, extInfo } = await raydium.launchpad.createLaunchpad({
 })
 ```
 
-**Important notes for Token-2022 launches**
+### Important notes for Token-2022 launches
 
 - migration is always `cpmm` (AMMv4 does not support Token-2022)
 - after migration, transfer fee authorities are transferred to the platform’s `transferFeeExtensionAuth` wallet
@@ -229,7 +231,7 @@ const { execute, extInfo } = await raydium.launchpad.createLaunchpad({
 
 Global configs determine which quote tokens and curve types are available. Fetch configs from the API or derive them directly.
 
-**From API**
+### From API
 
 ```ts
 const configs = await raydium.api.fetchLaunchConfigs()
@@ -238,7 +240,7 @@ const configs = await raydium.api.fetchLaunchConfigs()
 const solConfig = configs.find(c => c.key.mintB === NATIVE_MINT.toBase58())
 ```
 
-**Direct derivation**
+### Direct derivation
 
 ```ts
 import { getPdaLaunchpadConfigId, LAUNCHPAD_PROGRAM } from '@raydium-io/raydium-sdk-v2'
@@ -252,7 +254,7 @@ const configId = getPdaLaunchpadConfigId(
 ).publicKey
 ```
 
-**Common configurations**
+### Common configurations
 
 | Quote token | Curve type | Description |
 | --- | --- | --- |

@@ -1,6 +1,8 @@
-# Trade FAQ
+---
+description: "Common questions about swaps, perpetuals, slippage, fees, and trading on Raydium."
+---
 
-Common questions about swaps, perpetuals, slippage, fees, and trading on Raydium.
+# Trade FAQ
 
 ## Basics
 

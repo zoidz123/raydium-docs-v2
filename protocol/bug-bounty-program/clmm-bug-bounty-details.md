@@ -1,6 +1,8 @@
-# CLMM bug bounty details
+---
+description: "Program-specific scope and assets for Raydium's concentrated liquidity market maker."
+---
 
-Program-specific scope and assets for Raydium's concentrated liquidity market maker.
+# CLMM bug bounty details
 
 This page covers program-specific scope and assets for Raydium’s concentrated liquidity market maker (CLMM).
 

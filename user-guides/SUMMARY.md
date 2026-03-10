@@ -23,7 +23,7 @@
   * [Creating an ecosystem farm](supporting-tools/ecosystem-farms/creating-an-ecosystem-farm.md)
   * [Staking into farms](supporting-tools/ecosystem-farms/staking-into-farms.md)
   * [Farms FAQ](supporting-tools/ecosystem-farms/farms-faq.md)
-* [LaunchLab](launchlab/README.md)
+* [LaunchLab](launchlab/overview.md)
   * [Buying a LaunchLab token](launchlab/buying-a-launchlab-token.md)
   * [Creating a token](launchlab/creating-a-token.md)
   * [Earn referral fees](launchlab/earn-referral-fees.md)

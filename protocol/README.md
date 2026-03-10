@@ -1,6 +1,8 @@
-# Protocol
+---
+description: "Use this space to explore Raydium's tokenomics, fee flows, analytics, treasury structure, and security posture."
+---
 
-Use this space to explore Raydium's tokenomics, fee flows, analytics, treasury structure, and security posture.
+# Protocol
 
 ## Main sections
 

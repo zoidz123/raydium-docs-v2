@@ -1,6 +1,8 @@
-# Help Center
+---
+description: "Use this space for support, trust, and public brand resources."
+---
 
-Use this space for support, trust, and public brand resources.
+# Help Center
 
 ## In this space
 

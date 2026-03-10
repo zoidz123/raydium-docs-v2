@@ -1,6 +1,8 @@
-# User Guides
+---
+description: "Use this space for task-oriented documentation across trading, liquidity, staking, LaunchLab, and supporting tools."
+---
 
-Use this space for task-oriented documentation across trading, liquidity, staking, LaunchLab, and supporting tools.
+# User Guides
 
 ## Getting started
 
