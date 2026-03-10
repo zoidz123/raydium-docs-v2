@@ -2,6 +2,7 @@
 
 * [Trade API](overview.md)
 * [LaunchLab](overview/README.md)
+  * [Overview](overview/overview.md)
   * [Creating a platform](overview/creating-a-platform.md)
   * [Launching a token](overview/launching-a-token.md)
   * [Buying and selling a token](overview/buying-and-selling-a-token.md)
