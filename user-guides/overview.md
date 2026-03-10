@@ -1,33 +1,19 @@
 ---
-description: "Use this space for task-oriented Raydium guides across wallets, trading, liquidity, staking, farms, and LaunchLab."
+description: "Set up a wallet, add funds, and get ready to use Raydium."
 ---
 
-# User Guides
+# Getting started
 
-Use this space for step-by-step Raydium workflows.
+Use these guides to prepare a wallet for Raydium and move assets onto Solana.
 
-## In this space
+## In this section
 
-### Getting started
+- [How to set up a wallet](/user-guides/getting-started/quickstart-guides/wallets): Choose a wallet, secure it, and keep enough SOL for transactions.
+- [How to buy crypto with fiat](/user-guides/getting-started/quickstart-guides/buy-crypto-with-fiat): Use MoonPay to buy or sell crypto with card or bank transfer.
+- [How to bridge crypto](/user-guides/getting-started/quickstart-guides/bridge-crypto): Move assets from Ethereum or other chains into Solana.
 
-- [Getting started](/user-guides/getting-started): Wallet setup, fiat on-ramp, and bridging into Solana.
+## Before you start
 
-### Trading
-
-- [Trading](/user-guides/trading): Spot swaps, perps onboarding, and common trading questions.
-
-### Liquidity
-
-- [Liquidity](/user-guides/liquidity): Liquidity-specific guidance and FAQs.
-
-### Staking
-
-- [Staking](/user-guides/staking): Stake RAY and manage staking positions.
-
-### Supporting tools
-
-- [Supporting tools](/user-guides/supporting-tools): Burn and Earn and ecosystem farm workflows.
-
-### LaunchLab
-
-- [LaunchLab](/user-guides/launchlab): Token creation, buying, and referral workflows.
+- Keep a small amount of SOL in your wallet for network fees.
+- Use official wallet apps and official Raydium URLs only.
+- Double-check token mints and destinations before you confirm transactions.
