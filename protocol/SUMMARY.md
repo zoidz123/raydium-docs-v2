@@ -9,7 +9,7 @@
   * [Metrics and analytics](protocol-metrics-and-analytics.md)
   * [Treasury](treasury.md)
   * [Security](protocol-security.md)
-* [Bug bounty program](overview-1/README.md)
+* [Bug bounty program](overview-1/index.md)
   * [Overview](overview-1/overview.md)
   * [CLMM bug bounty details](overview-1/clmm-bug-bounty-details.md)
   * [AMM v4 bug bounty details](overview-1/amm-v4-bug-bounty-details.md)

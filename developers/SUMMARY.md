@@ -1,14 +1,14 @@
 # Table of contents
 
 * [Trade API](overview.md)
-* [LaunchLab](overview/README.md)
+* [LaunchLab](overview/index.md)
   * [Overview](overview/overview.md)
   * [Creating a platform](overview/creating-a-platform.md)
   * [Launching a token](overview/launching-a-token.md)
   * [Buying and selling a token](overview/buying-and-selling-a-token.md)
   * [Monitoring token migration](overview/monitoring-token-migration.md)
   * [Collecting fees](overview/collecting-fees.md)
-* [Resources](overview-1/README.md)
+* [Resources](overview-1/index.md)
   * [TS SDK](overview-1/ts-sdk.md)
   * [IDLs](overview-1/idls.md)
   * [Program addresses](overview-1/program-addresses.md)

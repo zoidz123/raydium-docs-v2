@@ -20,7 +20,7 @@ Every swap on Raydium incurs a trading fee, split between liquidity providers, R
 
 Creating a Standard AMM v4 or CPMM pool costs `0.15 SOL`.
 
-For destination addresses, see [Treasury](/protocol/treasury).
+For destination addresses, see [Treasury](treasury.md).
 
 ## Notes
 
