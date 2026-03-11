@@ -42,8 +42,3 @@ Bought back RAY is held at `DdHDoz94o2WJmD9myRobHCwtx1bESpHTd4SSPe6VEZaz`.
 | --- | --- |
 | CPMM | `DNXgeM9EiiaAbaWvwjHj9fQQLAX5ZsfHyvmYUNRAdNC8` |
 | Standard AMM v4 | `7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5` |
-
-## Related pages
-
-- [Protocol fees](/protocol/protocol-fees)
-- [Security](/protocol/protocol-security)

@@ -15,7 +15,3 @@ Raydium Perps is Raydium's perpetual futures trading interface for front-end use
 ## Who it is for
 
 Raydium Perps is for users who want a more advanced trading interface than spot swaps, including leverage and perpetual futures exposure.
-
-## Related guide
-
-Read the detailed guide: [Raydium Perps](/user-guides/trading/raydium-perps)

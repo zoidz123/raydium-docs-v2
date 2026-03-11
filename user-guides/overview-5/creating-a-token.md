@@ -37,4 +37,4 @@ Your token graduates when the bonding curve reaches your configured SOL target.
 
 ## Tip
 
-Click **Share** on the token page to [earn referral fees](/user-guides/launchlab/earn-referral-fees) from trades made through your link.
+Click **Share** on the token page to [earn referral fees](earn-referral-fees.md) from trades made through your link.

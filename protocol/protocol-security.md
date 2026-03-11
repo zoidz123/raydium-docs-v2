@@ -26,7 +26,7 @@ Members of the [Neodyme](https://neodyme.io) team have also performed extensive 
 
 Raydium runs an active bug bounty program in partnership with [Immunefi](https://immunefi.com/).
 
-See the full program and detail pages on [Bug bounty program](/protocol/bug-bounty-program).
+See the full program and detail pages on [Bug bounty program](overview-1/README.md).
 
 ## Access controls
 
@@ -52,5 +52,5 @@ Raydium does not currently employ a timelock for upgrades. Timelock mechanisms a
 
 ## References
 
-- [Treasury](/protocol/treasury)
-- [Bug bounty program](/protocol/bug-bounty-program)
+- [Treasury](treasury.md)
+- [Bug bounty program](overview-1/README.md)

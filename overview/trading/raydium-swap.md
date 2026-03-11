@@ -15,7 +15,3 @@ Raydium Swap is Raydium's spot trading interface for front-end users. It lets yo
 ## Who it is for
 
 Raydium Swap is for everyday users who want a fast way to trade tokens on Solana without managing pool mechanics directly.
-
-## Related guide
-
-Read the detailed guide: [Raydium Swap](/user-guides/trading/raydium-swap)

@@ -4,7 +4,7 @@ description: Programmatic swap quoting and transaction building for Raydium rout
 
 # Trade API
 
-## Endpoints
+Use this section for the Raydium Trade API endpoints.
 
-* [Get swap quote](overview/compute-swap-base-in.md): Get a routed swap quote for an exact input amount.
-* [Enter swap](overview/transaction-swap-base-in.md): Build one or more serialized swap transactions from a quote response.
+- [Get swap quote](overview/compute-swap-base-in.md)
+- [Enter swap](overview/transaction-swap-base-in.md)

@@ -4,10 +4,10 @@ description: Reference pages generated from the Raydium API v3 OpenAPI specifica
 
 # Endpoints
 
-## Groups
+Use this section for Raydium API v3 endpoint groups.
 
-* [Farms](overview/): 3 endpoints
-* [IDO](overview-1/): 1 endpoint
-* [Main](overview-2/): 10 endpoints
-* [Mint](overview-3/): 3 endpoints
-* [Pools](overview-4/): 8 endpoints
+- [Farms](overview/README.md)
+- [IDO](overview-1/README.md)
+- [Main](overview-2/README.md)
+- [Mint](overview-3/README.md)
+- [Pools](overview-4/README.md)

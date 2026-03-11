@@ -105,7 +105,7 @@ Increasing liquidity updates fee accounting but does **not** transfer fees to yo
 
 ### Earning rewards
 
-[Farming rewards](/user-guides/supporting-tools/ecosystem-farms) (if enabled) behave similarly to fees.
+[Farming rewards](../../../user-guides/overview-4/README.md) (if enabled) behave similarly to fees.
 
 ### Earning requirements
 

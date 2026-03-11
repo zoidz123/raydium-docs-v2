@@ -15,7 +15,3 @@ Ecosystem farms are incentive programs that let projects add token rewards to el
 ## Who it is for
 
 Ecosystem farms are primarily for token teams and pool operators that want to drive liquidity growth with reward programs.
-
-## Related guide
-
-Read the detailed guide: [Ecosystem farms](/user-guides/supporting-tools/ecosystem-farms)

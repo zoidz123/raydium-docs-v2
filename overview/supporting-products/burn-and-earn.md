@@ -15,7 +15,3 @@ Burn and Earn is a Raydium product that lets liquidity be locked permanently whi
 ## Who it is for
 
 Burn and Earn is for teams and liquidity providers that want to signal long-term commitment to a pool while still keeping fee participation.
-
-## Related guide
-
-Read the detailed guide: [Burn and Earn](/user-guides/supporting-tools/burn-and-earn)

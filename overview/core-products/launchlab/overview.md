@@ -97,9 +97,5 @@ LaunchLab is fully permissionless. Teams can build their own frontend, integrate
 
 Resources:
 
-* [Developer guides](/developers)
-* [Program addresses](/developers/resources/program-addresses)
-
-## Related guide
-
-Read the detailed guide: [LaunchLab](/user-guides/launchlab)
+* [Developer guides](../../../developers/overview.md)
+* [Program addresses](../../../developers/overview-1/program-addresses.md)

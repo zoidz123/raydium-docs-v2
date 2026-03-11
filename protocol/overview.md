@@ -44,6 +44,6 @@ The table below outlines the full RAY token allocation, including associated on-
 - Tokens then unlocked linearly on a daily basis from months 13 through 36.
 - All vesting concluded on February 21, 2024.
 
-- [RAY buybacks](/protocol/ray-token/ray-buybacks): 12% of trading fees are used to programmatically buy back RAY.
-- [RAY staking](/user-guides/staking/ray-staking): Stake RAY to earn additional RAY rewards.
-- [RAY token white paper](/protocol/ray-token/raydium-protocol-ray-token-white-paper): Open the official white paper page and PDF.
+- [RAY buybacks](overview/ray-buybacks.md): 12% of trading fees are used to programmatically buy back RAY.
+- [RAY staking](../user-guides/overview-3/ray-staking.md): Stake RAY to earn additional RAY rewards.
+- [RAY token white paper](overview/raydium-protocol-ray-token-white-paper.md): Open the official white paper page and PDF.

@@ -201,11 +201,6 @@ for (const tx of allTransactions) {
 }
 ```
 
-## Related pages
-
-- [API reference](/api-reference)
-- [TS SDK](/developers/resources/ts-sdk)
-
 ## Need help?
 
 Ask in [#dev-chat](https://discord.com/channels/813741812598439958/1009085496279977994) on Discord.

@@ -1,3 +1,0 @@
-# Summary
-
-* [Endpoints](overview.md)

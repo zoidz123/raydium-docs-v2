@@ -27,7 +27,7 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 ## Who it is for
 
 - [Traders](/overview/trading): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
-- [Liquidity providers](/user-guides/liquidity): Find liquidity-specific guidance and common LP questions.
+- [Liquidity providers](../user-guides/overview-2/README.md): Find liquidity-specific guidance and common LP questions.
 - [Token creators](/overview/core-products/launchlab): Launch tokens, bootstrap liquidity, and move into open market trading with LaunchLab.
 
 ## Trading
@@ -53,7 +53,7 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 ## Where to go next
 
-- [I want to trade](/user-guides/trading/raydium-swap): Start with Raydium Swap or explore perpetual futures on Raydium Perps.
-- [I want to provide liquidity](/user-guides/liquidity): Start with the liquidity section and branch into the right LP guide for your workflow.
-- [I want to launch](/user-guides/launchlab/creating-a-token): Create a token, configure a launch, or set up a new liquidity pool.
-- [I want to build](/developers): Explore Raydium SDK resources, program addresses, and developer integration docs.
+- [I want to trade](../user-guides/overview-1/raydium-swap.md): Start with Raydium Swap or explore perpetual futures on Raydium Perps.
+- [I want to provide liquidity](../user-guides/overview-2/README.md): Start with the liquidity section and branch into the right LP guide for your workflow.
+- [I want to launch](../user-guides/overview-5/creating-a-token.md): Create a token, configure a launch, or set up a new liquidity pool.
+- [I want to build](../developers/overview.md): Explore Raydium SDK resources, program addresses, and developer integration docs.
