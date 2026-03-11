@@ -6,6 +6,6 @@ description: "Overview of the core tokenomics of RAY, including supply, emission
 
 Use this section for RAY tokenomics, buybacks, and the official white paper.
 
-- [Overview](overview.md)
-- [RAY buybacks](ray-buybacks.md)
-- [RAY token white paper](raydium-protocol-ray-token-white-paper.md)
+- [Overview](overview/overview.md)
+- [RAY buybacks](overview/ray-buybacks.md)
+- [RAY token white paper](overview/raydium-protocol-ray-token-white-paper.md)
