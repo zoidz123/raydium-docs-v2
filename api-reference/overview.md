@@ -4,10 +4,9 @@ description: Raydium trade and liquidity endpoints.
 
 # API Reference
 
-Raydium API references in this space are generated directly from the OpenAPI specs in this repo.
+Use this space to explore Raydium trade and liquidity endpoints.
 
-Use GitBook's native OpenAPI import for endpoint pages and interactive testing.
+Use the API references here for endpoint details, request parameters, and response schemas.
 
 * [Trade API spec](specs/trade-api-openapi.json)
 * [API v3 spec](specs/openapi.json)
-
