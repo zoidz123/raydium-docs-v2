@@ -5,10 +5,10 @@
 ## Trade
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -19,10 +19,10 @@
 ## Liquidity
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
