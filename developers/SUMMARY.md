@@ -1,15 +1,20 @@
 # Table of contents
 
+## Developer guides
+
 * [Trade API](overview.md)
-* [LaunchLab](overview/index.md)
-  * [Overview](overview/overview.md)
-  * [Creating a platform](overview/creating-a-platform.md)
-  * [Launching a token](overview/launching-a-token.md)
-  * [Buying and selling a token](overview/buying-and-selling-a-token.md)
-  * [Monitoring token migration](overview/monitoring-token-migration.md)
-  * [Collecting fees](overview/collecting-fees.md)
-* [Resources](resources/overview.md)
-  * [TS SDK](resources/ts-sdk.md)
-  * [IDLs](resources/idls.md)
-  * [Program addresses](resources/program-addresses.md)
-  * [Token-2022 support](resources/token-2022-support.md)
+* [LaunchLab](developer-guides/index/README.md)
+  * [Overview](developer-guides/index/overview.md)
+  * [Creating a platform](developer-guides/index/creating-a-platform.md)
+  * [Launching a token](developer-guides/index/launching-a-token.md)
+  * [Buying and selling a token](developer-guides/index/buying-and-selling-a-token.md)
+  * [Monitoring token migration](developer-guides/index/monitoring-token-migration.md)
+  * [Collecting fees](developer-guides/index/collecting-fees.md)
+* [More soon!](developer-guides/more-soon.md)
+
+## Resources
+
+* [TS SDK](resources/ts-sdk.md)
+* [IDLs](resources/idls.md)
+* [Program addresses](resources/program-addresses.md)
+* [Token-2022 support](resources/token-2022-support.md)
