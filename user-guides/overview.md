@@ -1,11 +1,14 @@
 ---
-description: "Set up a wallet, add funds, and get ready to use Raydium."
+description: "Task-oriented guides for getting started with Raydium, trading, liquidity, staking, and LaunchLab."
 ---
 
-# Getting started
+# User Guides
 
-Use these guides to prepare a wallet for Raydium and move assets onto Solana.
+Use this space for step-by-step guides across Raydium products and workflows.
 
-- [How to set up a wallet](overview/wallets.md)
-- [How to buy crypto with fiat](overview/buy-crypto-with-fiat.md)
-- [How to bridge crypto](overview/bridge-crypto.md)
+- [Getting started](getting-started/overview.md)
+- [Trading](trading/overview.md)
+- [Liquidity](liquidity/overview.md)
+- [Staking](staking/overview.md)
+- [Supporting tools](supporting-tools/overview.md)
+- [LaunchLab](launchlab/overview.md)
