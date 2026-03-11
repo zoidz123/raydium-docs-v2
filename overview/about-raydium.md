@@ -24,12 +24,6 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 **Launch** - Create a token with a bonding curve through LaunchLab or deploy a pool for any asset.
 
-## Who it is for
-
-- [Traders](trading/overview.md): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
-- [Liquidity providers](/user-guides/liquidity): Find liquidity-specific guidance and common LP questions.
-- [Token creators](core-products/launchlab/overview.md): Launch tokens, bootstrap liquidity, and move into open market trading with LaunchLab.
-
 ## Trading
 
 - [Raydium Swap](trading/raydium-swap.md): Raydium's spot trading UI for swapping tokens with routing across available liquidity.
