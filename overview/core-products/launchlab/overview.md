@@ -1,5 +1,7 @@
 ---
-description: "LaunchLab is Raydium's token launch product built around bonding curves and pool migration."
+description: >-
+  LaunchLab is Raydium's token launch product built around bonding curves and
+  pool migration.
 ---
 
 # LaunchLab
@@ -32,9 +34,9 @@ This makes LaunchLab useful both for quick community launches and for more confi
 
 ## Best for
 
-- Token creators launching new assets
-- Users discovering early-stage launches
-- Platforms building launch experiences on Raydium infrastructure
+* Token creators launching new assets
+* Users discovering early-stage launches
+* Platforms building launch experiences on Raydium infrastructure
 
 ## How it works
 
@@ -48,10 +50,10 @@ For `JustSendit` mode, the default graduation target is **85 SOL**. Once that ta
 
 After graduation, liquidity migrates into one of Raydium's constant product pool types:
 
-| Pool type | Comment |
-| --------- | ------- |
-| `CPMM` | The standard choice for most launches. It offers simple, passive, full-range liquidity and supports creator fee configurations. |
-| `AMM v4` | The legacy pool interface. |
+| Pool type | Comment                                                                                                                         |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `CPMM`    | The standard choice for most launches. It offers simple, passive, full-range liquidity and supports creator fee configurations. |
+| `AMM v4`  | The legacy pool interface.                                                                                                      |
 
 ## Two modes
 
@@ -97,5 +99,5 @@ LaunchLab is fully permissionless. Teams can build their own frontend, integrate
 
 Resources:
 
-* [Developer guides](/developers)
-* [Program addresses](/developers/resources/program-addresses)
+* [Developer guides](https://app.gitbook.com/s/xrjzQmqrY8etCBSeqeii/index)
+* [Program addresses](../../../developers/resources/program-addresses/)
