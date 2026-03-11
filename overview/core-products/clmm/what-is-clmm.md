@@ -123,4 +123,4 @@ Rewards are collected automatically when you modify your position's liquidity, i
 * **Price range**: the minimum and maximum prices where your liquidity is active. Tighter ranges can earn more when in-range, but go out-of-range more easily.
 * **Quote token convention**: the quote token represents how many quote tokens are needed to purchase 1 base token. Common quote tokens include SOL and USDC.
 * **Starting price**: set during pool creation and defines the initial exchange rate, quote per base.
-* **Pool creation and position costs**: covered in [CLMM fees](/overview/core-products/clmm/fees).
+* **Pool creation and position costs**: covered in [CLMM fees](fees.md).

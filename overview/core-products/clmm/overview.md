@@ -8,9 +8,9 @@ CLMM is Raydium's concentrated liquidity model. It increases capital efficiency 
 
 ## Start here
 
-- [What is CLMM](/overview/core-products/clmm/what-is-clmm)
-- [CLMM fees](/overview/core-products/clmm/fees)
-- [Estimated APR for CLMM](/overview/core-products/clmm/estimated-apr)
+- [What is CLMM](what-is-clmm.md)
+- [CLMM fees](fees.md)
+- [Estimated APR for CLMM](estimated-apr.md)
 
 ## Best for
 

@@ -26,24 +26,24 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 ## Who it is for
 
-- [Traders](/overview/trading): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
+- [Traders](trading/overview.md): Swap tokens, route across liquidity, and trade perpetuals from self-custodial interfaces.
 - [Liquidity providers](/user-guides/liquidity): Find liquidity-specific guidance and common LP questions.
-- [Token creators](/overview/core-products/launchlab): Launch tokens, bootstrap liquidity, and move into open market trading with LaunchLab.
+- [Token creators](core-products/launchlab/overview.md): Launch tokens, bootstrap liquidity, and move into open market trading with LaunchLab.
 
 ## Trading
 
-- [Raydium Swap](/overview/trading/raydium-swap): Raydium's spot trading UI for swapping tokens with routing across available liquidity.
-- [Raydium Perps](/overview/trading/raydium-perps): Raydium's perpetual futures UI, built on Orderly, for leveraged trading from a self-custodial workflow.
+- [Raydium Swap](trading/raydium-swap.md): Raydium's spot trading UI for swapping tokens with routing across available liquidity.
+- [Raydium Perps](trading/raydium-perps/overview.md): Raydium's perpetual futures UI, built on Orderly, for leveraged trading from a self-custodial workflow.
 
 ## Pool types
 
-- [CLMM](/overview/core-products/clmm): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
-- [CPMM](/overview/core-products/cpmm): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
-- [AMM v4](/overview/core-products/amm-v4): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
+- [CLMM](core-products/clmm/overview.md): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
+- [CPMM](core-products/cpmm/overview.md): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
+- [AMM v4](core-products/amm-v4/overview.md): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
 
 ## LaunchLab
 
-- [LaunchLab](/overview/core-products/launchlab): Raydium's token launch platform for creating tokens on bonding curves and migrating into Raydium liquidity.
+- [LaunchLab](core-products/launchlab/overview.md): Raydium's token launch platform for creating tokens on bonding curves and migrating into Raydium liquidity.
 
 ## Other tools
 

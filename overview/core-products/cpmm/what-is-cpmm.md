@@ -57,7 +57,7 @@ Creating a CPMM pool initializes a new trading pair and deposits the first liqui
 * The ratio of the initial deposit defines the **starting price**
 * Pool creation fees and trading fee tiers are defined by a shared configuration
 * Swaps only become active once the configured open time is reached
-* Pool creation and account costs are covered in [CPMM fees](/overview/core-products/cpmm/fees)
+* Pool creation and account costs are covered in [CPMM fees](fees.md)
 
 
 ## Adding liquidity

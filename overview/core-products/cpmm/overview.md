@@ -8,8 +8,8 @@ CPMM is Raydium's standard constant product pool model for new pool creation. It
 
 ## Start here
 
-- [What is CPMM](/overview/core-products/cpmm/what-is-cpmm)
-- [CPMM fees](/overview/core-products/cpmm/fees)
+- [What is CPMM](what-is-cpmm.md)
+- [CPMM fees](fees.md)
 
 ## Best for
 

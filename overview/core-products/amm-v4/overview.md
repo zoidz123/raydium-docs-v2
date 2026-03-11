@@ -8,7 +8,7 @@ AMM v4 is Raydium's older constant product pool model. It remains important for 
 
 ## Start here
 
-- [What is AMM v4](/overview/core-products/amm-v4/what-is-amm-v4)
+- [What is AMM v4](what-is-amm-v4.md)
 
 ## Best for
 
