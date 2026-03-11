@@ -44,10 +44,3 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 * **Permissionless farms** - Add token incentives to eligible pools
 * **Burn and Earn** - Lock liquidity permanently while preserving access to fee flow
 * **Routing engine** - Route across Raydium pools through the app, API, or SDK
-
-## Where to go next
-
-- [I want to trade](/user-guides/trading/how-to-swap-on-raydium): Start with Raydium Swap or explore perpetual futures on Raydium Perps.
-- [I want to provide liquidity](/user-guides/liquidity): Start with the liquidity section and branch into the right LP guide for your workflow.
-- [I want to launch](/user-guides/launchlab/how-to-create-a-token): Create a token, configure a launch, or set up a new liquidity pool.
-- [I want to build](/developers): Explore Raydium SDK resources, program addresses, and developer integration docs.
