@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Welcome Builders](overview.md)
+
 ## Developer guides
 
-* [Trade API](overview.md)
+* [Trade API](<overview (1).md>)
 * [LaunchLab](developer-guides/index/README.md)
   * [Overview](developer-guides/index/overview.md)
   * [Creating a platform](developer-guides/index/creating-a-platform.md)
