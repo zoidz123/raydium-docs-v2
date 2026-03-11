@@ -2,7 +2,7 @@
 description: "Stake RAY to earn additional RAY rewards."
 ---
 
-# RAY staking
+# How to stake RAY
 
 Stake RAY to earn additional RAY rewards.
 

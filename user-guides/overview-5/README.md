@@ -6,6 +6,6 @@ description: "Buy LaunchLab tokens, create a token, and manage referral fee work
 
 Use this section when you want to participate in LaunchLab as a buyer or creator.
 
-- [Buying a LaunchLab token](buying-a-launchlab-token.md)
-- [Creating a token](creating-a-token.md)
-- [Earn referral fees](earn-referral-fees.md)
+- [How to buy a LaunchLab token](buying-a-launchlab-token.md)
+- [How to create a token](creating-a-token.md)
+- [How to earn fees](earn-referral-fees.md)
