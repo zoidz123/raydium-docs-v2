@@ -1,13 +1,32 @@
 ---
-description: "Build LaunchLab platform, launch, migration, and fee workflows with the Raydium SDK."
+description: "Build and interact with LaunchLab bonding curves using the Raydium SDK."
 ---
 
-# Overview
+# LaunchLab
 
-LaunchLab lets you build branded launch platforms, deploy tokens onto bonding curves, monitor migration into Raydium liquidity, and collect creator or platform fees.
+The Raydium SDK provides tools for building and interacting with LaunchLab bonding curves. Create platforms with custom fee structures, launch tokens, and integrate trading, all with a few lines of code.
 
-- [Creating a platform](creating-a-platform.md)
-- [Launching a token](launching-a-token.md)
-- [Buying and selling a token](buying-and-selling-a-token.md)
-- [Monitoring token migration](monitoring-token-migration.md)
-- [Collecting fees](collecting-fees.md)
+{% hint style="info" %}
+No upfront capital needed. Creating a launchpad and deploying your first token costs less than 0.1 SOL total.
+{% endhint %}
+
+### Installation
+
+```bash
+yarn add @raydium-io/raydium-sdk-v2
+```
+
+### Resources
+
+| Resource | Link |
+| --- | --- |
+| SDK source | [raydium-sdk-V2/launchpad](https://github.com/raydium-io/raydium-sdk-V2/tree/master/src/raydium/launchpad) |
+| Demo implementation | [raydium-sdk-V2-demo/launchpad](https://github.com/raydium-io/raydium-sdk-V2-demo/tree/master/src/launchpad) |
+| CPI integration | [raydium-cpi/launch-cpi](https://github.com/raydium-io/raydium-cpi/tree/master/programs/launch-cpi) |
+
+### Program addresses
+
+| Network | Address |
+| --- | --- |
+| Mainnet | `LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj` |
+| Devnet | `DRay6fNdQ5J82H7xV6uq2aV3mNrUZ1J4PgSKsWgptcm6` |
