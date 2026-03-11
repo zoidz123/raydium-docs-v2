@@ -1,5 +1,8 @@
 ---
-description: "Reference Raydium IDL files and understand which programs expose public Anchor-compatible interfaces."
+description: >-
+  Reference Raydium IDL files and understand which programs expose public
+  Anchor-compatible interfaces.
+icon: face-dotted
 ---
 
 # IDLs
@@ -16,15 +19,13 @@ Raydium provides **IDL (Interface Definition Language)** files for most of its m
 
 Concentrated liquidity pools used by Raydium’s CLMM AMM.
 
-Program source:
-[github.com/raydium-io/raydium-clmm](https://github.com/raydium-io/raydium-clmm)
+Program source: [github.com/raydium-io/raydium-clmm](https://github.com/raydium-io/raydium-clmm)
 
-IDL:
-[github.com/raydium-io/raydium-idl/tree/master/raydium_clmm](https://github.com/raydium-io/raydium-idl/tree/master/raydium_clmm)
+IDL: [github.com/raydium-io/raydium-idl/tree/master/raydium\_clmm](https://github.com/raydium-io/raydium-idl/tree/master/raydium_clmm)
 
 Mainnet program address:
 
-```text
+```
 CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK
 ```
 
@@ -32,15 +33,13 @@ CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK
 
 Constant product liquidity pools used by Raydium’s newer AMM implementation.
 
-Program source:
-[github.com/raydium-io/raydium-cp-swap](https://github.com/raydium-io/raydium-cp-swap)
+Program source: [github.com/raydium-io/raydium-cp-swap](https://github.com/raydium-io/raydium-cp-swap)
 
-IDL:
-[github.com/raydium-io/raydium-idl/tree/master/raydium_cpmm](https://github.com/raydium-io/raydium-idl/tree/master/raydium_cpmm)
+IDL: [github.com/raydium-io/raydium-idl/tree/master/raydium\_cpmm](https://github.com/raydium-io/raydium-idl/tree/master/raydium_cpmm)
 
 Mainnet program address:
 
-```text
+```
 CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C
 ```
 
@@ -52,7 +51,7 @@ The LaunchLab program exposes an **IDL stored on-chain**, which can be fetched d
 
 Mainnet program address:
 
-```text
+```
 LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj
 ```
 
@@ -68,12 +67,11 @@ Raydium’s original AMM implementation integrated with the OpenBook order book.
 
 This program **predates Anchor and did not ship with an official IDL**. Developers typically rely on the program source or reconstructed layouts when interacting with it.
 
-Program source:
-[github.com/raydium-io/raydium-amm](https://github.com/raydium-io/raydium-amm)
+Program source: [github.com/raydium-io/raydium-amm](https://github.com/raydium-io/raydium-amm)
 
 Mainnet program address:
 
-```text
+```
 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8
 ```
 
@@ -81,14 +79,14 @@ Mainnet program address:
 
 The following Raydium programs exist but **do not currently have public Anchor IDLs**:
 
-| Program | Mainnet Address |
-| --- | --- |
-| Stable Swap AMM | `5quBtoiQqxF9Jv6KYKctB59NT3gtJD2Y65kdnB1Uev3h` |
-| Burn & Earn (LP Locker) | `LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE` |
-| AMM Routing | `routeUGWgWzqBWFcrCfv8tritsqukccJPu3q5GPP3xS` |
-| Staking | `EhhTKczWMGQt46ynNeRX1WfeagwwJd7ufHvCDjRxjo5Q` |
-| Farm Staking | `9KEPoZmtHUrBbhWN1v1KWLMkkvwY6WLtAVUCPRtRjP4z` |
-| Ecosystem Farm | `FarmqiPv5eAj3j1GMdMCMUGXqPUvmquZtMy86QH6rzhG` |
+| Program                 | Mainnet Address                                |
+| ----------------------- | ---------------------------------------------- |
+| Stable Swap AMM         | `5quBtoiQqxF9Jv6KYKctB59NT3gtJD2Y65kdnB1Uev3h` |
+| Burn & Earn (LP Locker) | `LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE`  |
+| AMM Routing             | `routeUGWgWzqBWFcrCfv8tritsqukccJPu3q5GPP3xS`  |
+| Staking                 | `EhhTKczWMGQt46ynNeRX1WfeagwwJd7ufHvCDjRxjo5Q` |
+| Farm Staking            | `9KEPoZmtHUrBbhWN1v1KWLMkkvwY6WLtAVUCPRtRjP4z` |
+| Ecosystem Farm          | `FarmqiPv5eAj3j1GMdMCMUGXqPUvmquZtMy86QH6rzhG` |
 
 These addresses correspond to the official Raydium program list.
 
@@ -96,12 +94,12 @@ These addresses correspond to the official Raydium program list.
 
 Programs with developer-friendly IDLs:
 
-- CLMM
-- CPMM
-- LaunchLab (IDL available on-chain)
+* CLMM
+* CPMM
+* LaunchLab (IDL available on-chain)
 
 Legacy / non-Anchor programs:
 
-- AMM v4
-- Stable Swap
-- Staking and farm infrastructure
+* AMM v4
+* Stable Swap
+* Staking and farm infrastructure

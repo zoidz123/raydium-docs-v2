@@ -1,5 +1,8 @@
 ---
-description: "Use Raydium's TypeScript SDK for swaps, pool creation, liquidity management, and LaunchLab integration."
+description: >-
+  Use Raydium's TypeScript SDK for swaps, pool creation, liquidity management,
+  and LaunchLab integration.
+icon: brackets-curly
 ---
 
 # TS SDK
@@ -14,12 +17,12 @@ yarn add @raydium-io/raydium-sdk-v2
 
 ## Repositories and resources
 
-| Resource | Link |
-| --- | --- |
-| SDK (typescript) | [raydium-sdk-V2](https://github.com/raydium-io/raydium-sdk-V2) |
-| SDK demo (typescript) | [raydium-sdk-V2-demo](https://github.com/raydium-io/raydium-sdk-V2-demo) |
-| UI repo | [raydium-ui-v3-public](https://github.com/raydium-io/raydium-ui-v3-public) |
-| All Repos | [github.com/raydium-io](https://github.com/raydium-io) |
+| Resource              | Link                                                                       |
+| --------------------- | -------------------------------------------------------------------------- |
+| SDK (typescript)      | [raydium-sdk-V2](https://github.com/raydium-io/raydium-sdk-V2)             |
+| SDK demo (typescript) | [raydium-sdk-V2-demo](https://github.com/raydium-io/raydium-sdk-V2-demo)   |
+| UI repo               | [raydium-ui-v3-public](https://github.com/raydium-io/raydium-ui-v3-public) |
+| All Repos             | [github.com/raydium-io](https://github.com/raydium-io)                     |
 
 ## Recommended workflow
 

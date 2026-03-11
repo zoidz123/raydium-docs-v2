@@ -1,8 +1,11 @@
 ---
-description: "Route swaps through Raydium pools using quotes, serialized transactions, and optional priority fee helpers."
+description: >-
+  Route swaps through Raydium pools using quotes, serialized transactions, and
+  optional priority fee helpers.
+icon: terminal
 ---
 
-# How to use Trade API
+# Trade API
 
 The Trade API lets you get quotes and execute swaps through Raydium's routing engine. For a complete end-to-end implementation, see the [SDK demo](https://github.com/raydium-io/raydium-sdk-V2-demo).
 
@@ -21,13 +24,13 @@ Returns a quote for swapping tokens with an exact input amount.
 
 ### Query parameters
 
-| Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| `inputMint` | `string` | Yes | Token mint address to swap from |
-| `outputMint` | `string` | Yes | Token mint address to swap to |
-| `amount` | `string` | Yes | Amount in base units, such as token decimals or lamports for SOL |
-| `slippageBps` | `number` | Yes | Slippage tolerance in basis points, for example `50 = 0.5%` |
-| `txVersion` | `string` | Yes | Transaction version: `v0` or `legacy` |
+| Name          | Type     | Required | Description                                                      |
+| ------------- | -------- | -------- | ---------------------------------------------------------------- |
+| `inputMint`   | `string` | Yes      | Token mint address to swap from                                  |
+| `outputMint`  | `string` | Yes      | Token mint address to swap to                                    |
+| `amount`      | `string` | Yes      | Amount in base units, such as token decimals or lamports for SOL |
+| `slippageBps` | `number` | Yes      | Slippage tolerance in basis points, for example `50 = 0.5%`      |
+| `txVersion`   | `string` | Yes      | Transaction version: `v0` or `legacy`                            |
 
 ### Example response
 
@@ -82,9 +85,9 @@ Returns a quote for swapping tokens with an exact input amount.
 
 ### Quote endpoints
 
-| Path | Description |
-| --- | --- |
-| `/compute/swap-base-in` | Specify the exact input amount |
+| Path                     | Description                     |
+| ------------------------ | ------------------------------- |
+| `/compute/swap-base-in`  | Specify the exact input amount  |
 | `/compute/swap-base-out` | Specify the exact output amount |
 
 ## Build the transaction
@@ -95,16 +98,16 @@ Builds one or more serialized transactions from a quote response.
 
 ### Request body
 
-| Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| `swapResponse` | `object` | Yes | Response returned by the quote endpoint |
-| `wallet` | `string` | Yes | User wallet public key |
-| `txVersion` | `string` | Yes | Transaction version: `V0` or `LEGACY` |
-| `wrapSol` | `boolean` | No | Wrap SOL to wSOL for the input leg |
-| `unwrapSol` | `boolean` | No | Unwrap wSOL to SOL for the output leg |
-| `inputAccount` | `string` | No | Input token account, omit if the input is SOL |
-| `outputAccount` | `string` | No | Output token account, omit if the output is SOL |
-| `computeUnitPriceMicroLamports` | `string` | No | Priority fee in micro-lamports |
+| Name                            | Type      | Required | Description                                     |
+| ------------------------------- | --------- | -------- | ----------------------------------------------- |
+| `swapResponse`                  | `object`  | Yes      | Response returned by the quote endpoint         |
+| `wallet`                        | `string`  | Yes      | User wallet public key                          |
+| `txVersion`                     | `string`  | Yes      | Transaction version: `V0` or `LEGACY`           |
+| `wrapSol`                       | `boolean` | No       | Wrap SOL to wSOL for the input leg              |
+| `unwrapSol`                     | `boolean` | No       | Unwrap wSOL to SOL for the output leg           |
+| `inputAccount`                  | `string`  | No       | Input token account, omit if the input is SOL   |
+| `outputAccount`                 | `string`  | No       | Output token account, omit if the output is SOL |
+| `computeUnitPriceMicroLamports` | `string`  | No       | Priority fee in micro-lamports                  |
 
 ### Example response
 
