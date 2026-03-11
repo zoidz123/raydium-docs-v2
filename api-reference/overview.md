@@ -1,10 +1,12 @@
 ---
-description: Programmatic swap quoting and transaction building for Raydium routed swaps.
+description: "Raydium API references in GitBook are generated directly from the OpenAPI specs in this repo."
 ---
 
-# Trade API
+# API Reference
 
-Use this section for the Raydium Trade API endpoints.
+Raydium API references in this space are generated directly from the OpenAPI specs in this repo.
 
-- [Get swap quote](overview/compute-swap-base-in.md)
-- [Enter swap](overview/transaction-swap-base-in.md)
+Use GitBook's native OpenAPI import for endpoint pages and interactive testing.
+
+- [Trade API spec](specs/trade-api-openapi.json)
+- [API v3 spec](specs/openapi.json)
