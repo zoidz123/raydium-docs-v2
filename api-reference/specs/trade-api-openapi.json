@@ -63,8 +63,8 @@
             "schema": {
               "type": "string",
               "enum": [
-                "v0",
-                "legacy"
+                "V0",
+                "LEGACY"
               ]
             },
             "description": "Transaction version."
