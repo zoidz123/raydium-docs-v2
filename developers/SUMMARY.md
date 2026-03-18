@@ -12,7 +12,6 @@
   * [Buying and selling a token](developer-guides/index/buying-and-selling-a-token.md)
   * [Monitoring token migration](developer-guides/index/monitoring-token-migration.md)
   * [Collecting fees](developer-guides/index/collecting-fees.md)
-* [More soon!](developer-guides/more-soon.md)
 
 ## Resources
 

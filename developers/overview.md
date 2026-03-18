@@ -1,7 +1,5 @@
 # Welcome Builders
 
-## Welcome Builders
-
 Build on **Raydium**, the leading liquidity protocol on Solana powering swaps, liquidity pools, token launches, and perpetual markets.
 
 This developer section provides everything needed to integrate with Raydium:
