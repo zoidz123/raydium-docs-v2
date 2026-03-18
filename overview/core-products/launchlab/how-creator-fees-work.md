@@ -1,5 +1,7 @@
 ---
-description: "When enabled, creators will receive **10% of all LP fees** generated from the liquidity pool after their token graduates from the bonding curve."
+description: >-
+  When enabled, creators will receive **10% of all LP fees** generated from the
+  liquidity pool after their token graduates from the bonding curve.
 ---
 
 # How creator fees work
@@ -17,7 +19,7 @@ Fee rates are set by the platform and paid in the quote token (e.g., SOL).
 
 #### Post-migration fees
 
-After graduation, creators can continue earning from LP trading fees. When enabled, this works through Raydium's [Burn & Earn](/user-guides/supporting-tools/how-to-use-burn-and-earn) program:
+After graduation, creators can continue earning from LP trading fees. When enabled, this works through Raydium's [Burn & Earn](../../../user-guides/supporting-tools/how-to-use-burn-and-earn/) program:
 
 1. When the bonding curve goal is reached, liquidity migrates to a CPMM pool.
 2. LP tokens are distributed according to the platform's configuration—a portion is burned, and the remainder is locked in Burn & Earn.
@@ -26,7 +28,7 @@ After graduation, creators can continue earning from LP trading fees. When enabl
 
 **Raydium's LaunchLab defaults:** 90% of LP tokens are burned, 10% go to the creator. Other platforms integrating with LaunchLab can configure different splits between burned, creator, and platform shares.
 
-If post-migration fee share is not enabled, tokens graduate to an AMMv4 pool instead of CPMM. Creators can also earn additional fees (based on the launch parameters `creatorFeeOn` and platformConfig), if this parameters is enabled creators can claim fees on top of the LP trading fees through a CLI interface. Resource available [here](/developers/launchlab/collecting-fees).
+If post-migration fee share is not enabled, tokens graduate to an AMMv4 pool instead of CPMM. Creators can also earn additional fees (based on the launch parameters `creatorFeeOn` and platformConfig), if this parameters is enabled creators can claim fees on top of the LP trading fees through a CLI interface. See guide [here](https://app.gitbook.com/s/xrjzQmqrY8etCBSeqeii/developer-guides/index/collecting-fees).
 
 #### Important
 
