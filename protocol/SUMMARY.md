@@ -1,16 +1,21 @@
 # Table of contents
 
-* [RAY token](ray-token/index.md)
-  * [Overview](ray-token/overview.md)
-  * [RAY buybacks](ray-token/ray-buybacks.md)
-  * [RAY token white paper](ray-token/raydium-protocol-ray-token-white-paper.md)
-* [Protocol](protocol/overview.md)
-  * [Protocol fees](protocol/protocol-fees.md)
-  * [Metrics and analytics](protocol/metrics-and-analytics.md)
-  * [Treasury](protocol/treasury.md)
-  * [Security](protocol/security.md)
-* [Bug bounty program](bug-bounty-program/index.md)
-  * [Overview](bug-bounty-program/overview.md)
-  * [CLMM bug bounty details](bug-bounty-program/clmm-bug-bounty-details.md)
-  * [AMM v4 bug bounty details](bug-bounty-program/amm-v4-bug-bounty-details.md)
-  * [CPMM bug bounty details](bug-bounty-program/cpmm-bug-bounty-details.md)
+## RAY Token
+
+* [Overview](overview.md)
+* [RAY buybacks](ray-token/ray-buybacks.md)
+* [RAY token white paper](ray-token/raydium-protocol-ray-token-white-paper.md)
+
+## Protocol
+
+* [Protocol fees](protocol/protocol-fees.md)
+* [Metrics and analytics](protocol/metrics-and-analytics.md)
+* [Treasury](protocol/treasury.md)
+* [Security](protocol/security.md)
+
+## Bug Bounty
+
+* [Overview](bug-bounty/overview.md)
+* [CLMM bug bounty details](bug-bounty/clmm-bug-bounty-details.md)
+* [AMM v4 bug bounty details](bug-bounty/amm-v4-bug-bounty-details.md)
+* [CPMM bug bounty details](bug-bounty/cpmm-bug-bounty-details.md)
