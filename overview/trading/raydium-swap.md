@@ -1,17 +1,16 @@
 ---
-description: "Raydium Swap is Raydium's token swapping interface for front-end users on Solana."
+description: >-
+  Raydium Swap is Raydium's token swapping interface for front-end users on
+  Solana.
 ---
 
 # Raydium Swap
 
-Raydium Swap is Raydium's spot trading interface for front-end users. It lets you swap tokens directly against Raydium liquidity pools with onchain execution and routing across available liquidity.
+Everything on Raydium runs at [raydium.io ](https://raydium.io/swap/)— no downloads needed.
 
-## What it does
+You can swap tokens, trade perps with leverage, provide liquidity to earn fees, and launch or buy new tokens via LaunchLab.
 
-- Swaps SPL tokens through Raydium liquidity
-- Routes across available pools for better execution
-- Gives users a simple front-end interface for onchain spot trading
+Connect your wallet to get started.
 
-## Who it is for
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Raydium Swap is for everyday users who want a fast way to trade tokens on Solana without managing pool mechanics directly.

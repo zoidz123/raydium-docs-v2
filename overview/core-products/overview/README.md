@@ -1,15 +1,16 @@
 ---
-description: "Learn how CLMM works on Raydium, when it is useful, and how concentrated liquidity positions behave."
+description: >-
+  Concentrated liquidity for LPs who want to allocate capital within a chosen
+  price range.
 ---
 
-# What is CLMM
+# CLMM
 
 ## Overview
 
 Concentrated liquidity allows liquidity providers (LPs) to allocate capital within a **specific price range** rather than across the entire curve. This can significantly increase capital efficiency, but it also introduces **active management requirements** and additional risk.
 
 Impermanent loss can be significant in CLMM pools. A positive return is not guaranteed. Make sure you understand the risks before providing concentrated liquidity.
-
 
 ## Best for
 
@@ -18,7 +19,6 @@ CLMM is best for:
 * Stable pairs
 * Pegged assets
 * Advanced LPs who want precise control over their position
-
 
 ## Key features
 
@@ -30,7 +30,6 @@ CLMM is best for:
 
 Full-range positions are possible, but they are generally more expensive because of tick array initialization costs. If you want passive full-range exposure, a constant product pool is often a better fit.
 
-
 ## Fee tiers and tick spacing
 
 Lower fee tiers generally suit **stable or pegged assets**, where tighter spreads attract more volume. Higher fee tiers compensate LPs for the added risk of **volatile or exotic pairs**.
@@ -39,7 +38,6 @@ Each fee tier has a corresponding **tick spacing**:
 
 * Lower fee tiers use smaller tick spacing for more granular price points
 * Higher fee tiers use larger tick spacing with coarser price points
-
 
 ## How price ranges work
 
@@ -52,14 +50,12 @@ When price moves:
 
 This is similar to standard AMM behavior but accelerated within your chosen range. CLMM offers higher capital efficiency, but it also magnifies impermanent loss compared to full-range positions.
 
-
 ## Fee split
 
 Liquidity providers earn **84%** of trading fees. The remaining **16%** is allocated to:
 
 * **12%** to RAY buybacks
 * **4%** to treasury
-
 
 ## Positions
 
@@ -76,7 +72,6 @@ If a position NFT is **lost, sold, or burned**, the liquidity it represents is a
 
 There is no limit on the number of positions per wallet. You can open multiple positions in the same pool with overlapping or different ranges. Each position is independent.
 
-
 ## Out-of-range positions
 
 When the pool price moves outside your position's configured range:
@@ -85,7 +80,6 @@ When the pool price moves outside your position's configured range:
 * your position becomes **100% one-sided** (entirely token A or entirely token B)
 * the position remains open (there is no auto-close mechanism)
 * earnings resume automatically if the price returns to your range
-
 
 ## Earning fees and rewards
 
@@ -102,10 +96,9 @@ There is no separate "claim fees" instruction. Fee collection is handled through
 
 Increasing liquidity updates fee accounting but does **not** transfer fees to you.
 
-
 ### Earning rewards
 
-[Farming rewards](/user-guides/supporting-tools/how-to-stake-into-farms) (if enabled) behave similarly to fees.
+[Farming rewards](../../../user-guides/supporting-tools/how-to-stake-into-farms/) (if enabled) behave similarly to fees.
 
 ### Earning requirements
 
@@ -116,7 +109,6 @@ Increasing liquidity updates fee accounting but does **not** transfer fees to yo
 ### Collecting rewards
 
 Rewards are collected automatically when you modify your position's liquidity, including a `decrease_liquidity` of 0.
-
 
 ## Key concepts
 

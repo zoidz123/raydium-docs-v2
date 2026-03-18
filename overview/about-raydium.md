@@ -1,5 +1,7 @@
 ---
-description: "Learn what Raydium is, what you can do on the platform, and how its core products fit together."
+description: >-
+  Learn what Raydium is, what you can do on the platform, and how its core
+  products fit together.
 ---
 
 # About Raydium
@@ -26,18 +28,18 @@ Anyone can create pools, launch tokens with bonding curve mechanics, and add liq
 
 ## Trading
 
-- [Raydium Swap](trading/raydium-swap.md): Raydium's spot trading UI for swapping tokens with routing across available liquidity.
-- [Raydium Perps](trading/raydium-perps/overview.md): Raydium's perpetual futures UI, built on Orderly, for leveraged trading from a self-custodial workflow.
+* [Raydium Swap](trading/raydium-swap.md): Raydium's spot trading UI for swapping tokens with routing across available liquidity.
+* [Raydium Perps](trading/overview/): Raydium's perpetual futures UI, built on Orderly, for leveraged trading from a self-custodial workflow.
 
 ## Pool types
 
-- [CLMM](core-products/clmm/overview.md): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
-- [CPMM](core-products/cpmm/overview.md): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
-- [AMM v4](core-products/amm-v4/overview.md): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
+* [CLMM](core-products/overview/): Concentrated liquidity. LPs choose a price range to concentrate capital for higher efficiency and more active control.
+* [CPMM](core-products/overview-1/): Raydium's current constant product pool design. It is the default for new pool creation and LaunchLab migrations.
+* [AMM v4](/broken/pages/NjOuN1goQtXi95fQYbxh): Raydium's legacy constant product AMM. It is battle-tested, widely deployed, and now operates as a traditional AMM.
 
 ## LaunchLab
 
-- [LaunchLab](core-products/launchlab/overview.md): Raydium's token launch platform for creating tokens on bonding curves and migrating into Raydium liquidity.
+* [LaunchLab](core-products/overview-2/): Raydium's token launch platform for creating tokens on bonding curves and migrating into Raydium liquidity.
 
 ## Other tools
 

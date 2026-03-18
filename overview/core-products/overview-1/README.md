@@ -1,8 +1,10 @@
 ---
-description: "Learn how CPMM works on Raydium, how it differs from AMM v4, and when it is the right pool model."
+description: >-
+  Simple full-range constant product liquidity for passive pools and standard
+  integrations.
 ---
 
-# What is CPMM
+# CPMM
 
 ## Overview
 
@@ -12,7 +14,6 @@ When you provide liquidity, you receive **fungible LP tokens** that represent yo
 
 CPMM pools prioritize simplicity and predictability, making them well suited for long-tail assets, retail liquidity providers, and integrations that prefer minimal configuration.
 
-
 ## Best for
 
 CPMM is best for:
@@ -21,7 +22,6 @@ CPMM is best for:
 * Volatile assets
 * LPs who prefer passive, full-range exposure
 
-
 ## Key characteristics
 
 * Full-range liquidity with no price ranges to manage
@@ -29,18 +29,16 @@ CPMM is best for:
 * Simple user experience compared to concentrated liquidity
 * Compatible with both SPL Token and Token-2022 standards
 
-
 ## CPMM vs AMM v4
 
 Raydium has two constant product programs:
 
-| Program | Description |
-| ------- | ----------- |
-| `CPMM` | Current standard. Anchor compatible, Token-2022 support, multiple fee configs, and creator fee support. |
+| Program  | Description                                                                                                                                                                                                    |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CPMM`   | Current standard. Anchor compatible, Token-2022 support, multiple fee configs, and creator fee support.                                                                                                        |
 | `AMM v4` | Legacy program and one of the most widely deployed Raydium contracts on Solana. It originally shared liquidity with Serum and later OpenBook order books, and now operates as a standard constant product AMM. |
 
 If you are choosing between the two for a new deployment, `CPMM` is generally the modern default. `AMM v4` matters mainly for legacy compatibility and existing ecosystem coverage.
-
 
 ## Creating a CPMM pool
 
@@ -59,7 +57,6 @@ Creating a CPMM pool initializes a new trading pair and deposits the first liqui
 * Swaps only become active once the configured open time is reached
 * Pool creation and account costs are covered in [CPMM fees](fees.md)
 
-
 ## Adding liquidity
 
 Adding liquidity means depositing tokens into an existing pool in proportion to its current reserves.
@@ -76,7 +73,6 @@ Adding liquidity means depositing tokens into an existing pool in proportion to 
 * Fungible LP tokens representing your ownership share
 * Automatic exposure to trading fees earned by the pool
 
-
 ## Removing liquidity
 
 Removing liquidity burns your LP tokens and returns the underlying assets.
@@ -89,7 +85,6 @@ Removing liquidity burns your LP tokens and returns the underlying assets.
 * Slippage protection ensures minimum outputs
 
 Fees are embedded directly into the value of LP tokens.
-
 
 ## When to use CPMM pools
 

@@ -1,25 +1,28 @@
-# Summary
+# Table of contents
 
 * [About Raydium](about-raydium.md)
-* [Core products](core-products/overview.md)
-  * [CLMM](core-products/clmm/overview.md)
-    * [What is CLMM](core-products/clmm/what-is-clmm.md)
-    * [CLMM fees](core-products/clmm/fees.md)
-    * [Estimated APR for CLMM](core-products/clmm/estimated-apr.md)
-  * [CPMM](core-products/cpmm/overview.md)
-    * [What is CPMM](core-products/cpmm/what-is-cpmm.md)
-    * [CPMM fees](core-products/cpmm/fees.md)
-  * [AMM v4](core-products/amm-v4/overview.md)
-    * [What is AMM v4](core-products/amm-v4/what-is-amm-v4.md)
-  * [LaunchLab](core-products/launchlab/overview.md)
-    * [How creator fees work](core-products/launchlab/how-creator-fees-work.md)
-* [Trading](trading/overview.md)
-  * [Raydium Swap](trading/raydium-swap.md)
-  * [Raydium Perps](trading/raydium-perps/overview.md)
-    * [Trading basics](trading/raydium-perps/trading-basics.md)
-    * [Order types](trading/raydium-perps/order-types.md)
-    * [Multi-collateral deposit](trading/raydium-perps/multi-collateral-deposit.md)
-    * [Trading fees](trading/raydium-perps/trading-fees.md)
-* [Supporting products](supporting-products/overview.md)
-  * [Ecosystem Farms](supporting-products/ecosystem-farms.md)
-  * [Burn and Earn](supporting-products/burn-and-earn.md)
+
+## Core products
+
+* [CLMM](core-products/overview/README.md)
+  * [CLMM fees](core-products/overview/fees.md)
+  * [Estimated APR for CLMM](core-products/overview/estimated-apr.md)
+* [CPMM](core-products/overview-1/README.md)
+  * [CPMM fees](core-products/overview-1/fees.md)
+* [AMM v4](core-products/what-is-amm-v4.md)
+* [LaunchLab](core-products/overview-2/README.md)
+  * [How creator fees work](core-products/overview-2/how-creator-fees-work.md)
+
+## Trading
+
+* [Raydium Swap](trading/raydium-swap.md)
+* [Raydium Perps](trading/overview/README.md)
+  * [Trading basics](trading/overview/trading-basics.md)
+  * [Order types](trading/overview/order-types.md)
+  * [Multi-collateral deposit](trading/overview/multi-collateral-deposit.md)
+  * [Trading fees](trading/overview/trading-fees.md)
+
+## Liquidity Tools
+
+* [Ecosystem Farms](liquidity-tools/ecosystem-farms.md)
+* [Burn and Earn](liquidity-tools/burn-and-earn.md)
