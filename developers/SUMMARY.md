@@ -12,6 +12,12 @@
   * [Monitoring token migration](developer-guides/index/monitoring-token-migration.md)
   * [Collecting fees](developer-guides/index/collecting-fees.md)
 
+## How To
+
+* [How to configure LP fee distribution](how-to/how-to-configure-lp-fee-distribution.md)
+* [How to set CPMM fees](how-to/how-to-set-cpmm-fees.md)
+* [How to configure CPMM creator fees](how-to/how-to-configure-cpmm-creator-fees.md)
+
 ## Resources
 
 * [TS SDK](resources/ts-sdk.md)

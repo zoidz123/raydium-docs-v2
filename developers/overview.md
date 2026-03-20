@@ -13,13 +13,13 @@ This developer section provides everything needed to integrate with Raydium:
 
 #### 🚀 Get Started
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Trade API</strong></td><td>GET quote and POST to execute swaps leveraging Raydium router</td><td><a href="overview (1).md">overview (1).md</a></td></tr><tr><td><strong>LaunchLab Examples</strong></td><td>Step-by-step examples showing how to create and launch tokens using LaunchLab.</td><td><a href="developer-guides/index/">index</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Trade API</strong></td><td>GET quote and POST to execute swaps leveraging Raydium router</td><td><a href="overview (1).md">overview (1).md</a></td></tr><tr><td><strong>LaunchLab Examples</strong></td><td>Step-by-step examples showing how to create and launch tokens using LaunchLab.</td><td><a href="developer-guides/index/">index</a></td></tr><tr><td>How To Guides</td><td>Explainers around common gotchas when buildling on Raydium</td><td></td></tr></tbody></table>
 
 ***
 
 #### 🧰 Developer Tools
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>TS SDK</td><td><p>TypeScript SDK used by Raydium applications and integrations.</p><p>Supports pool interactions, swaps, liquidity, and more.</p></td><td><a href="resources/ts-sdk.md">ts-sdk.md</a></td></tr><tr><td>IDLs</td><td><p>Interface definitions for Raydium on-chain programs.</p><p>Useful for Anchor clients and custom integrations.</p></td><td><a href="resources/idls.md">idls.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>TS SDK</td><td><p>TypeScript SDK used by Raydium applications and integrations.</p><p>Supports pool interactions, swaps, liquidity, and more.</p></td><td><a href="resources/ts-sdk.md">ts-sdk.md</a></td></tr><tr><td>IDLs</td><td><p>Interface definitions for Raydium on-chain programs.</p><p>Useful for Anchor clients and custom integrations.</p></td><td><a href="resources/idls.md">idls.md</a></td></tr><tr><td>TS SDK Demo</td><td>Demo showing how developers can use the SDK</td><td><a href="https://github.com/raydium-io/raydium-sdk-V2-demo">https://github.com/raydium-io/raydium-sdk-V2-demo</a></td></tr></tbody></table>
 
 ***
 
