@@ -11,6 +11,11 @@
   * [Buying and selling a token](developer-guides/index/buying-and-selling-a-token.md)
   * [Monitoring token migration](developer-guides/index/monitoring-token-migration.md)
   * [Collecting fees](developer-guides/index/collecting-fees.md)
+* [CPMM](developer-guides/cpmm/README.md)
+  * [Creating a pool](developer-guides/cpmm/creating-a-pool.md)
+  * [Depositing and withdrawing liquidity](developer-guides/cpmm/depositing-and-withdrawing-liquidity.md)
+  * [Locking liquidity and collecting fees](developer-guides/cpmm/locking-liquidity-and-collecting-fees.md)
+  * [Swapping](developer-guides/cpmm/swapping.md)
 
 ## How To
 
