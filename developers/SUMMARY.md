@@ -16,6 +16,13 @@
   * [Depositing / withdrawing liquidity](developer-guides/cpmm/depositing-withdrawing-liquidity.md)
   * [Locking liquidity / collecting fees](developer-guides/cpmm/locking-liquidity-collecting-fees.md)
   * [Swapping](developer-guides/cpmm/swapping.md)
+* [CLMM](developer-guides/clmm/README.md)
+  * [Creating a pool](developer-guides/clmm/creating-a-pool.md)
+  * [Opening / closing position](developer-guides/clmm/opening-closing-position.md)
+  * [Deposting / withdrawing liquidity](developer-guides/clmm/deposting-withdrawing-liquidity.md)
+  * [Collecting fees and rewards](developer-guides/clmm/collecting-fees-and-rewards.md)
+  * [Locking liquidity](developer-guides/clmm/locking-liquidity.md)
+  * [Swapping](developer-guides/clmm/swapping.md)
 
 ## Tips & Gotchas
 
