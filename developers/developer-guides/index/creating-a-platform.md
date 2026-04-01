@@ -1,5 +1,5 @@
 ---
-description: "Create and configure your LaunchLab platform to enable token launches."
+description: Create and configure your LaunchLab platform to enable token launches.
 ---
 
 # Creating a platform
@@ -73,29 +73,29 @@ const createPlatform = async () => {
 
 ### Wallet configuration
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `platformAdmin` | PublicKey | Admin wallet that controls the platform. Can update settings. |
-| `platformClaimFeeWallet` | PublicKey | Wallet that receives platform trading fees from bonding curves. |
-| `platformLockNftWallet` | PublicKey | Wallet that receives the platform's Fee Key NFT after migration. |
-| `platformVestingWallet` | PublicKey | Wallet for platform vesting allocations. Use `PublicKey.default` if not needed. |
+| Parameter                | Type      | Description                                                                     |
+| ------------------------ | --------- | ------------------------------------------------------------------------------- |
+| `platformAdmin`          | PublicKey | Admin wallet that controls the platform. Can update settings.                   |
+| `platformClaimFeeWallet` | PublicKey | Wallet that receives platform trading fees from bonding curves.                 |
+| `platformLockNftWallet`  | PublicKey | Wallet that receives the platform's Fee Key NFT after migration.                |
+| `platformVestingWallet`  | PublicKey | Wallet for platform vesting allocations. Use `PublicKey.default` if not needed. |
 
 ### Fee configuration
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `feeRate` | BN | Platform's share of bonding curve trading fees. In bps × 100 (`10000 = 1%`). |
-| `creatorFeeRate` | BN | Creator's share of bonding curve trading fees. In bps × 100 (`5000 = 0.5%`). Max `50000` (`5%`). |
+| Parameter        | Type | Description                                                                                      |
+| ---------------- | ---- | ------------------------------------------------------------------------------------------------ |
+| `feeRate`        | BN   | Platform's share of bonding curve trading fees. In bps × 100 (`10000 = 1%`).                     |
+| `creatorFeeRate` | BN   | Creator's share of bonding curve trading fees. In bps × 100 (`5000 = 0.5%`). Max `50000` (`5%`). |
 
 Fees are denominated in quote token (for example, SOL). For each trade, total fee = `protocolFeeRate` + `platformFeeRate` + `creatorFeeRate` + `shareFeeRate`. Each party receives their proportional share.
 
 ### LP distribution at migration
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `platformScale` | BN | Platform's share of LP tokens, locked via Burn & Earn. Platform receives Fee Key NFT. |
-| `creatorScale` | BN | Creator's share of LP tokens, locked via Burn & Earn. Creator receives Fee Key NFT. |
-| `burnScale` | BN | LP tokens burned permanently. No fees generated. |
+| Parameter       | Type | Description                                                                           |
+| --------------- | ---- | ------------------------------------------------------------------------------------- |
+| `platformScale` | BN   | Platform's share of LP tokens, locked via Burn & Earn. Platform receives Fee Key NFT. |
+| `creatorScale`  | BN   | Creator's share of LP tokens, locked via Burn & Earn. Creator receives Fee Key NFT.   |
+| `burnScale`     | BN   | LP tokens burned permanently. No fees generated.                                      |
 
 These three values must sum to `1,000,000` (100%).
 
@@ -114,23 +114,23 @@ These three values must sum to `1,000,000` (100%).
 
 ### Pool configuration
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `cpConfigId` | PublicKey | Fee tier for the CPMM pool after migration. Get available configs from the API. |
-| `transferFeeExtensionAuth` | PublicKey | Receives transfer fee authorities for Token-2022 launches after migration. |
+| Parameter                  | Type      | Description                                                                     |
+| -------------------------- | --------- | ------------------------------------------------------------------------------- |
+| `cpConfigId`               | PublicKey | Fee tier for the CPMM pool after migration. Get available configs from the API. |
+| `transferFeeExtensionAuth` | PublicKey | Receives transfer fee authorities for Token-2022 launches after migration.      |
 
 ### Available CPMM configs
 
-- Mainnet: [api-v3.raydium.io/main/cpmm-config](https://api-v3.raydium.io/main/cpmm-config)
-- Devnet: [api-v3-devnet.raydium.io/main/cpmm-config](https://api-v3-devnet.raydium.io/main/cpmm-config)
+* Mainnet: [api-v3.raydium.io/main/cpmm-config](https://api-v3.raydium.io/main/cpmm-config)
+* Devnet: [api-v3-devnet.raydium.io/main/cpmm-config](https://api-v3-devnet.raydium.io/main/cpmm-config)
 
 ### Metadata
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `name` | string | Platform name (stored on-chain). |
-| `web` | string | Platform website URL. |
-| `img` | string | Platform logo URL. |
+| Parameter | Type   | Description                      |
+| --------- | ------ | -------------------------------- |
+| `name`    | string | Platform name (stored on-chain). |
+| `web`     | string | Platform website URL.            |
+| `img`     | string | Platform logo URL.               |
 
 ***
 
@@ -157,22 +157,20 @@ const updatePlatform = async () => {
 
 ### Available update types
 
-| Type | Value | Description |
-| --- | --- | --- |
-| `updateFeeRate` | BN | Update platform trading fee rate |
-| `updateClaimFeeWallet` | PublicKey | Change fee collection wallet |
-| `updateLockNftWallet` | PublicKey | Change Fee Key NFT recipient |
-| `updateVestingWallet` | PublicKey | Change vesting wallet |
-| `updateCpConfigId` | PublicKey | Change CPMM fee tier for migrations |
-| `updateName` | string | Update platform name |
-| `updateWeb` | string | Update website URL |
-| `updateImg` | string | Update logo URL |
-| `migrateCpLockNftScale` | object | Update LP distribution ratios |
-| `updatePlatformVestingScale` | BN | Update platform vesting allocation |
-| `updatePlatformCpCreator` | PublicKey | pass a publicKey as fee receipient post graduation |
-| `updateAll` | object | Update all settings at once |
-
-Only one update can be made per epoch. Plan changes carefully.
+| Type                         | Value     | Description                                        |
+| ---------------------------- | --------- | -------------------------------------------------- |
+| `updateFeeRate`              | BN        | Update platform trading fee rate                   |
+| `updateClaimFeeWallet`       | PublicKey | Change fee collection wallet                       |
+| `updateLockNftWallet`        | PublicKey | Change Fee Key NFT recipient                       |
+| `updateVestingWallet`        | PublicKey | Change vesting wallet                              |
+| `updateCpConfigId`           | PublicKey | Change CPMM fee tier for migrations                |
+| `updateName`                 | string    | Update platform name                               |
+| `updateWeb`                  | string    | Update website URL                                 |
+| `updateImg`                  | string    | Update logo URL                                    |
+| `migrateCpLockNftScale`      | object    | Update LP distribution ratios                      |
+| `updatePlatformVestingScale` | BN        | Update platform vesting allocation                 |
+| `updatePlatformCpCreator`    | PublicKey | pass a publicKey as fee receipient post graduation |
+| `updateAll`                  | object    | Update all settings at once                        |
 
 ***
 
@@ -204,10 +202,10 @@ const instruction = updatePlatformCurveParamInstruction(
 
 ### How parameter enforcement works
 
-- Store up to 25 configurations (index 0-254)
-- Set a parameter to `null` to skip validation for that field
-- Creators must match at least one configuration exactly
-- Configurations can be updated once per epoch
+* Store up to 25 configurations (index 0-254)
+* Set a parameter to `null` to skip validation for that field
+* Creators must match at least one configuration exactly
+* Configurations can be updated once per epoch
 
 **Example:** Allow flexible raise amounts but fixed supply:
 
