@@ -26,6 +26,7 @@
 
 ## Tips & Gotchas
 
+* [LaunchLab & CPMM fee reference](tips-and-gotchas/launchlab-and-cpmm-fee-reference.md)
 * [How to configure LP fee distribution](tips-and-gotchas/how-to-configure-lp-fee-distribution.md)
 * [How to set CPMM fees](tips-and-gotchas/how-to-set-cpmm-fees.md)
 * [How to configure CPMM creator fees](tips-and-gotchas/how-to-configure-cpmm-creator-fees.md)
