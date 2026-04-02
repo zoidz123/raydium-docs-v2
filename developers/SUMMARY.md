@@ -30,6 +30,7 @@
 * [How to configure LP fee distribution](tips-and-gotchas/how-to-configure-lp-fee-distribution.md)
 * [How to set CPMM fees](tips-and-gotchas/how-to-set-cpmm-fees.md)
 * [How to configure CPMM creator fees](tips-and-gotchas/how-to-configure-cpmm-creator-fees.md)
+* [How to redistribute creator fees](tips-and-gotchas/how-to-redistribute-creator-fees.md)
 
 ## Resources
 
