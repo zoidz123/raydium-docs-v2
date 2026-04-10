@@ -16,16 +16,16 @@
         spec: raydium-trade-api
   ```
 
-## Liquidity
+***
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: raydium-api-v3
+        spec: api-v2-2
   ```
