@@ -34,6 +34,7 @@
 
 ## Resources
 
+* [AI / LLM](resources/ai-llm.md)
 * [TS SDK](resources/ts-sdk.md)
 * [IDLs](resources/idls.md)
 * [Program addresses](resources/program-addresses.md)
