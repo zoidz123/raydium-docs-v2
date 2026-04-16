@@ -82,10 +82,10 @@ const createPlatform = async () => {
 
 ### Fee configuration
 
-| Parameter        | Type | Description                                                                                      |
-| ---------------- | ---- | ------------------------------------------------------------------------------------------------ |
-| `feeRate`        | BN   | Platform's share of bonding curve trading fees. In bps × 100 (`10000 = 1%`).                     |
-| `creatorFeeRate` | BN   | Creator's share of bonding curve trading fees. In bps × 100 (`5000 = 0.5%`). Max `50000` (`5%`). |
+| Parameter        | Type | Description                                                                                                                        |
+| ---------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `feeRate`        | BN   | Platform's share of bonding curve trading fees. In bps × 100 (`10000 = 1%`).                                                       |
+| `creatorFeeRate` | BN   | <p>Creator's share of bonding curve trading fees. In bps × 100 (<code>5000 = 0.5%</code>). <br>Max input = <code>5000</code>. </p> |
 
 Fees are denominated in quote token (for example, SOL). For each trade, total fee = `protocolFeeRate` + `platformFeeRate` + `creatorFeeRate` + `shareFeeRate`. Each party receives their proportional share.
 

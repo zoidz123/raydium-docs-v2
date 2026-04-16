@@ -123,7 +123,7 @@ The global config is derived from the quote token and curve type via `getPdaLaun
 | Field                   | Controls                                              | Set via                                                   |
 | ----------------------- | ----------------------------------------------------- | --------------------------------------------------------- |
 | `feeRate`               | Platform's bonding curve trading fee                  | `createPlatformConfig()` or `updateFeeRate`               |
-| `creatorFeeRate`        | Creator's bonding curve trading fee (max 5%)          | `createPlatformConfig()`                                  |
+| `creatorFeeRate`        | Creator's bonding curve trading fee                   | `createPlatformConfig()`                                  |
 | `migrateCpLockNftScale` | LP split at migration (burn / creator / platform)     | `createPlatformConfig()` or `updateMigrateCpLockNftScale` |
 | `cpConfigId`            | Which CPMM AmmConfig migrated pools use               | `createPlatformConfig()` or `updateCpConfigId`            |
 | `platformCpCreator`     | Overrides pool creator address on migrated CPMM pools | `updatePlatformCpCreator()`                               |
